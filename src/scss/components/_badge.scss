@@ -1,0 +1,14 @@
+// badge.scss
+
+.badge {
+    &.hero-badge {
+        border: 1px solid var(--bs-hero-badge-border);
+        background-color: var(--bs-hero-badge-bg);
+        color:var(--bs-hero-badge-color);
+        margin-bottom: 20px;
+        i {
+            display: inline-block;
+            transform: rotate(45deg);
+        }
+    }
+}

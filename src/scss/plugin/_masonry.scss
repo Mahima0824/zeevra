@@ -1,0 +1,50 @@
+// // masonary.scss
+
+// .benefit-masonry {
+//     &.masonry-grid {
+//         display: grid;
+//         grid-gap: 1.5rem;
+//         grid-auto-rows: 10px;
+
+//     }
+
+//     @media (min-width: 0px) and (max-width: 767.98px) {
+//         &.masonry-grid {
+//             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+//             .masonry-item {
+//                 &.small {
+//                     grid-row-end: span 12;
+//                 }
+
+//                 &.medium {
+//                     grid-row-end: span 15;
+//                 }
+
+//                 &.large {
+//                     grid-row-end: span 20;
+//                 }
+//             }
+//         }
+//     }
+
+//     @media (min-width: 768px) {
+//         &.masonry-grid {
+//              grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+
+//             .masonry-item {
+//                 &.small {
+//                     grid-row-end: span 8;
+//                 }
+
+//                 &.medium {
+//                     grid-row-end: span 17;
+//                 }
+
+//                 &.large {
+//                     grid-row-end: span 22;
+//                 }
+//             }
+//         }
+//     }
+// }

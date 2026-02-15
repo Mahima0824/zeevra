@@ -1,0 +1,61 @@
+{
+  "name": "zeevra",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "braces": "^3.0.3",
+    "browser-sync": "^3.0.4",
+    "del": "^8.0.1",
+    "gulp": "^5.0.1",
+    "gulp-autoprefixer": "^10.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-npm-dist": "^1.0.4",
+    "gulp-rename": "^2.1.0",
+    "gulp-replace": "^1.1.4",
+    "gulp-rtlcss": "^2.0.0",
+    "gulp-sass": "^6.0.1",
+    "gulp-sequence": "^1.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "jpegtran-bin": "^7.0.0",
+    "merge-stream": "^2.0.0",
+    "rtlcss": "^4.3.0",
+    "sass": "^1.93.2",
+    "tar": "^7.5.1"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "chart.js": "^4.5.1",
+    "gsap": "^3.13.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^11.0.1",
+    "locomotive-scroll": "^5.0.0-beta.21",
+    "remixicon": "^4.7.0",
+    "simplebar": "^6.3.2",
+    "swiper": "^12.0.3"
+  },
+  "gulp-npm-dist": {
+    "bootstrap": [
+      "dist/js/bootstrap.bundle.min.js",
+      "dist/js/bootstrap.bundle.min.js.map"
+    ]
+  }
+}

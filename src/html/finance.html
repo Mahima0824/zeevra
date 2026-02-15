@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    %%include('partials/layout/meta.html')
+    %%include('partials/layout/css.html')
+</head>
+
+<body>
+    <!-- navbar -->
+    %%include('partials/layout/navbar.html')
+
+    <!-- Hero section -->
+    <section class="hero-section finance-hero-bgimg finance-hero py-xl-0 py-100">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-xl-6 col-12 mb-xl-0 mb-5">
+                    <img src="../images/finance/chart.png" alt="chart" class="img-fluid chart-img">
+                </div>
+                <div class="col-xl-6 col-12">
+                    <h1 class="hero-title mb-20 text-xl-start text-center">Simplify Your<span class="text-primary">
+                            Finances </span>with
+                        Smart<span class="text-primary"> Billing Software </span></h1>
+                    <p class="text-xl-start text-center">Manage invoices, track expenses, and get paid faster—all in one
+                        intuitive platform. Our powerful
+                        SaaS solution helps you stay in control of your finances, save time, and scale with confidence.
+                    </p>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-xl-start justify-content-center mb-2">
+                            <span class="me-2"><i class="ri-file-2-fill"></i></span>
+                            <p class="mb-0">Create & Send Invoices in Seconds</p>
+                        </div>
+                        <div class="d-flex justify-content-xl-start justify-content-center mb-2">
+                            <span class="me-2"><i class="ri-cash-line"></i></span>
+                            <p class="mb-0">Automate Recurring Payments & Reminders</p>
+                        </div>
+                        <div class="d-flex justify-content-xl-start justify-content-center">
+                            <span class="me-2"><i class="ri-bar-chart-2-line"></i></span>
+                            <p class="mb-0">Get Real-Time Financial Reports & Insights</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-xl-start justify-content-center align-items-center gap-3">
+                        <button class="btn btn-primary rounded-pill">Get Started</button>
+                        <button class="btn btn-outline-dark btn-dark-outline rounded-pill">Try It Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features section  -->
+    <section class="section">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Key Features"})
+                    <p class="text-center subtitle">Explore the core tools designed to simplify billing, automate your
+                        workflow, and give you full control over your financial operations—all in one secure platform.
+                    </p>
+                </div>
+            </div>
+
+            <!-- features-card1 -->
+            <div class="row justify-contenmt-center align-items-center mb-lg-60 mb-5">
+                <div class="col-lg-5 col-12 mb-lg-0 mb-4">
+                    %%include('partials/components/featurescard2img.html',{"borderclass":"img-left-border","img":"features1.jpg"})
+                </div>
+                <div class="col-lg-6 offset-lg-1 col-12">
+                    <h3 class="text-dark-title mb-12">Smart Invoicing Made Effortless</h3>
+                    <p>Easily create, customize, and manage professional invoices that get you paid faster. Whether
+                        you're billing clients once or on a recurring basis, everything is handled smoothly.</p>
+                    <ul class="fs-6 mb-4">
+                        <li class="mb-1">Create branded, professional invoices in seconds</li>
+                        <li class="mb-1">Automate recurring billing cycles</li>
+                        <li>Track payment status in real-time</li>
+                    </ul>
+                    <a href="#" class="fw-medium fin-card-link">Learn More<span class="ms-12"><i
+                                class="ri-arrow-right-long-line"></i></span></a>
+                </div>
+            </div>
+
+            <!-- features-card2 -->
+            <div class="row justify-contenmt-center align-items-center mb-lg-60 mb-5">
+                <div class="col-lg-6 col-12 order-lg-1 order-2">
+                    <h3 class="text-dark-title mb-12">Streamlined Expense Tracking</h3>
+                    <p>Stay on top of every business expense with automated tracking and categorization. No more lost
+                        receipts or scattered spreadsheets.</p>
+                    <ul class="fs-6 mb-4">
+                        <li class="mb-1">Upload receipts and auto-categorize expenses</li>
+                        <li class="mb-1">Set spending limits and monitor budgets</li>
+                        <li>Sync expenses with accounting reports</li>
+                    </ul>
+                    <a href="#" class="fw-medium fin-card-link">Learn More<span class="ms-12"><i
+                                class="ri-arrow-right-long-line"></i></span></a>
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-12 mb-lg-0 mb-4 order-lg-2 order-1">
+                    %%include('partials/components/featurescard2img.html',{"borderclass":"img-right-border","img":"features2.jpg"})
+                </div>
+            </div>
+
+            <!-- features-card3 -->
+            <div class="row justify-contenmt-center align-items-center mb-lg-60 mb-5">
+                <div class="col-lg-5 col-12 mb-lg-0 mb-4">
+                    %%include('partials/components/featurescard2img.html',{"borderclass":"img-left-border","img":"features3.jpg"})
+                </div>
+                <div class="col-lg-6 offset-lg-1 col-12">
+                    <h3 class="text-dark-title mb-12">Real-Time Reports & Interactive Dashboards</h3>
+                    <p>Make smarter decisions with visual reports and dashboards that reflect your live financial data.
+                        Analyze performance, trends, and cash flow with ease.</p>
+                    <ul class="fs-6 mb-4">
+                        <li class="mb-1">Visual dashboards for income, expenses, and profits</li>
+                        <li class="mb-1">Custom reports for tax, revenue, and more</li>
+                        <li>Export data in one click for deeper insights</li>
+                    </ul>
+                    <a href="#" class="fw-medium fin-card-link">Learn More<span class="ms-12"><i
+                                class="ri-arrow-right-long-line"></i></span></a>
+                </div>
+            </div>
+
+            <!-- features-card4 -->
+            <div class="row justify-contenmt-center align-items-center mb-lg-60 mb-5">
+                <div class="col-lg-6 col-12 order-lg-1 order-2">
+                    <h3 class="text-dark-title mb-12">Powerful Integrations That Work for You</h3>
+                    <p>Connect your favorite tools and automate your workflows. From payment gateways to accounting
+                        platforms, our integrations save time and reduce errors.</p>
+                    <ul class="fs-6 mb-4">
+                        <li class="mb-1">Seamless integration with Stripe, PayPal, Xero, and more</li>
+                        <li class="mb-1">Connect CRMs and automate invoicing workflows</li>
+                        <li>Reduce manual data entry with synced systems</li>
+                    </ul>
+                    <a href="#" class="fw-medium fin-card-link">Learn More<span class="ms-12"><i
+                                class="ri-arrow-right-long-line"></i></span></a>
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-12 mb-lg-0 mb-4 order-lg-2 order-1">
+                    %%include('partials/components/featurescard2img.html',{"borderclass":"img-right-border","img":"features4.jpg"})
+                </div>
+            </div>
+
+            <!-- features-card5 -->
+            <div class="row justify-contenmt-center align-items-center mb-lg-60 mb-5">
+                <div class="col-lg-5 col-12 mb-lg-0 mb-4">
+                    %%include('partials/components/featurescard2img.html',{"borderclass":"img-left-border","img":"features5.jpg"})
+                </div>
+                <div class="col-lg-6 offset-lg-1 col-12">
+                    <h3 class="text-dark-title mb-12">Multi-Currency & Smart Tax Management</h3>
+                    <p>Expand globally with support for multiple currencies and automated tax handling. Perfect for
+                        businesses that operate across regions or borders.</p>
+                    <ul class="fs-6 mb-4">
+                        <li class="mb-1">Accept payments in 100+ currencies</li>
+                        <li class="mb-1">Auto-calculate GST, VAT, and other local taxes</li>
+                        <li>Generate tax-ready reports for compliance</li>
+                    </ul>
+                    <a href="#" class="fw-medium fin-card-link">Learn More<span class="ms-12"><i
+                                class="ri-arrow-right-long-line"></i></span></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Why Choose section -->
+    <section class="section bg-gray">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Why Choose Us?"})
+                    <p class="text-center subtitle">A smart, reliable finance solution built to simplify billing,
+                        automate workflows, and grow with your business.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-item-center">
+                <div class="col-lg-3 col-sm-6 col-12 mb-lg-0 mb-4">
+                    <div class="card benefits-card2 h-100">
+                        <div class="card-body py-xl-50 text-center">
+                            <span class="icon"><i class="ri-timer-fill"></i></span>
+                            <h5 class="text-dark-title mt-2 mb-0">Faster invoicing</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 mb-lg-0 mb-4">
+                    <div class="card benefits-card2 h-100">
+                        <div class="card-body py-xl-50 text-center">
+                            <span class="icon"><i class="ri-error-warning-fill"></i></span>
+                            <h5 class="text-dark-title mt-2 mb-0">Error Prevention</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 mb-sm-0 mb-4">
+                    <div class="card benefits-card2 h-100">
+                        <div class="card-body py-xl-50 text-center">
+                            <span class="icon"><i class="ri-cloud-fill"></i></span>
+                            <h5 class="text-dark-title mt-2 mb-0">Cloud Security</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card benefits-card2 h-100">
+                        <div class="card-body py-xl-50 text-center">
+                            <span class="icon"><i class="ri-book-read-fill"></i></span>
+                            <h5 class="text-dark-title mt-2 mb-0">Automated Bookkeeping</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who it's for section -->
+    <section class="section">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Who It's Built For"})
+                    <p class="text-center subtitle">Perfect for freelancers, small businesses, and growing teams who
+                        need smart, automated tools to manage finances without the hassle.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-xl-5 col-12 order-xl-1 order-2">
+                    <h3 class="text-dark-title mb-12">Perfect for Professionals, Teams, and Organizations</h3>
+                    <p class="fs-6">Our finance and billing software is built to support a wide range of users—from solo
+                        professionals and freelancers to growing teams and established organizations. With intuitive
+                        tools and custo-mizable features, it adapts to your workflow, making financial management simple
+                        and efficient.</p>
+                    <ul>
+                        <li>
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="ri-user-3-line"></i></span>
+                                <p class="fs-6 mb-0">Freelancers & Consultants</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="ri-building-line"></i></span>
+                                <p class="fs-6 mb-0">Small to Mid-Sized Businesses</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="ri-macbook-line"></i></span>
+                                <p class="fs-6 mb-0">Agencies & Service Providers</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="ri-luggage-cart-line"></i></span>
+                                <p class="fs-6 mb-0">E-commerce Sellers</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="ri-rocket-2-line"></i></span>
+                                <p class="fs-6 mb-0">Startups Scaling Their Finance Ops</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-6 offset-xl-1 col-lg-10 col-12 order-xl-2 order-1 mb-xl-0 mb-4">
+                    <img src="../images/finance/freelance.jpg" alt="people-office-analyzing"
+                        class="img-fluid img-border-radius">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial section -->
+    <section class="section bg-gray">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"What Our Users Are Saying"})
+                    <p class="text-center subtitle">Hear from real customers who’ve simplified their finances, saved
+                        time, and grown their businesses using our platform.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="swiper testiSwiper3">
+                        <div class="swiper-wrapper">
+                            <!-- slide1 -->
+                            <div class="swiper-slide">
+                              %%include('partials/components/testicard3.html',
+                              {"description":"This software completely changed the way we handle our finances. Invoicing takes minutes instead of hours, and we always know exactly where we stand financially. As a small business owner, having everything in one place has been a game changer.",
+                                "title":"Joyce J. Neal",
+                                "subtitle":"Founder of BrightLeaf Marketing",
+                                "img":"avatar1.jpg"})
+                            </div>
+
+                            <!-- slide2 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard3.html',
+                                {"description":"This software completely changed the way we handle our finances. Invoicing takes minutes instead of hours, and we always know exactly where we stand financially. As a small business owner, having everything in one place has been a game changer.",
+                                "title":"Vera D. Rhodes",
+                                "subtitle":"Founder of BrightLeaf Marketing",
+                                "img":"avatar8.jpg"})
+                            </div>
+                            <!-- slide3 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard3.html',
+                                {"description":"This software completely changed the way we handle our finances. Invoicing takes minutes instead of hours, and we always know exactly where we stand financially. As a small business owner, having everything in one place has been a game changer.",
+                                "title":"Siya D. Shah",
+                                "subtitle":"Founder of BrightLeaf Marketing",
+                                "img":"avatar2.jpg"})
+                            </div>
+                            <!-- slide4 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard3.html',
+                                {"description":"This software completely changed the way we handle our finances. Invoicing takes minutes instead of hours, and we always know exactly where we stand financially. As a small business owner, having everything in one place has been a game changer.",
+                                "title":"Denis F. Dian",
+                                "subtitle":"Founder of BrightLeaf Marketing",
+                                "img":"avatar4.jpg"})
+                            </div>
+                        </div>
+                        <div class="swiper-button d-flex justify-content-center align-items-center gap-4 mt-4">
+                            <div class="swiper-btn-prev">
+                                <span>
+                                    <i class="ri-arrow-left-fill"></i>
+                                </span>
+                            </div>
+                            <div class="swiper-btn-next">
+                                <span>
+                                    <i class="ri-arrow-right-fill"></i>
+                                </span>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing section -->
+    <section class="section">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Our Pricing"})
+                    <p class="text-center subtitle">Flexible plans for freelancers, teams, and enterprises. Pay only for what you need—no hidden costs, no surprises.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-md-6 col-12 mb-xl-0 mb-4">
+                    <div class="card price-card2 price-card-bg-light h-100">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h4 class="mb-0 card-title">Starter Plan</h4>
+                                <div class="d-flex align-items-end">
+                                    <h2 class="mb-0 price-text fw-semibold">$15/</h2>
+                                    <p class="mb-0">Month</p>
+                                </div>
+                            </div>
+                            <hr class="my-4">
+                            <ul class="features-list ps-0 mb-0">
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Create and send unlimited invoices</li>
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Track expenses and payments</li>
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Basic reporting dashboard</li>
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Email support</li>
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>One user</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-transparent pb-4 pt-0 border-0">
+                            <button class="btn btn-get-start w-100 py-12">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-xl-0 mb-4">
+                     <div class="card price-card2 price-card-bg-primary h-100">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h4 class="mb-0 card-title">Growth Plan</h4>
+                                <div class="d-flex align-items-end">
+                                    <h2 class="mb-0 price-text fw-semibold">$39/</h2>
+                                    <p class="mb-0">Month</p>
+                                </div>
+                            </div>
+                            <hr class="my-4">
+                            <ul class="features-list ps-0 mb-0">
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>All Starter features</li>
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Recurring invoices & automated reminders</li>
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Multi-user access (up to 5 users)</li>
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Client portal for payment tracking</li>
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Priority email & chat support</li>
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Integration with accounting tools</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-transparent pb-4 pt-0 border-0">
+                            <button class="btn btn-light w-100 py-12 shadow-none">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div class="card price-card2 price-card-bg-light h-100">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h4 class="mb-0 card-title">Business Plan</h4>
+                                <div class="d-flex align-items-end">
+                                    <h2 class="mb-0 price-text fw-semibold">$79/</h2>
+                                    <p class="mb-0">Month</p>
+                                </div>
+                            </div>
+                            <hr class="my-4">
+                            <ul class="features-list ps-0 mb-0">
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>All Growth features</li>
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Advanced reporting and analytics</li>
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Custom branding & invoice templates</li>
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Team management tools</li>
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Role-based permissions</li>
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>API access & custom integrations</li>
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Dedicated account manager</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-transparent pb-4 pt-0 border-0">
+                            <button class="btn btn-get-start w-100 py-12">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ section -->
+     <section class="section bg-gray">
+       <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Frequently Asked Questions"})
+                    <p class="text-center subtitle">Have questions? We’ve got answers. Browse through the most common queries to understand how our platform works and how it can help your business.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-item-center">
+                <div class="col-lg-6 col-12">
+                    <div class="accordion accordion-flush finance-acco-feq pe-xl-50" id="accordionFinanceFaq1">
+                            <div class="accordion-item mb-32">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button no-toggle fs-22 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFif" aria-expanded="false" aria-controls="flush-collapseFif">
+                                        <span class="fs-2 me-20 text-dark-title"><i class="ri-price-tag-3-line"></i></span>
+                                        What features are included in each pricing plan?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFif" class="accordion-collapse show" data-bs-parent="#accordionFinanceFaq1">
+                                    <div class="accordion-body ms-28 fs-6">Each plan includes core features like invoicing, expense tracking, and reporting, with advanced tools like automation, team access, and integrations in higher tiers.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-32">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button no-toggle fs-22 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSixt" aria-expanded="false" aria-controls="flush-collapseSixt">
+                                        <span class="fs-2 me-20 text-dark-title"><i class="ri-layout-6-line"></i></span>
+                                        Can I customize invoices and billing templates?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSixt" class="accordion-collapse show" data-bs-parent="#accordionFinanceFaq1">
+                                    <div class="accordion-body ms-28 fs-6">Yes, you can fully customize invoice layouts, add your branding, and tailor billing templates to fit your needs.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-lg-0 mb-32">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button no-toggle fs-22 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSev" aria-expanded="false" aria-controls="flush-collapseSev">
+                                        <span class="fs-2 me-20 text-dark-title"><i class="ri-prohibited-2-line"></i></span>
+                                        Can I cancel or change my plan at any time?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSev" class="accordion-collapse show" data-bs-parent="#accordionFinanceFaq1">
+                                    <div class="accordion-body ms-28 fs-6">Yes, you can upgrade, downgrade, or cancel your plan anytime—no long-term commitments.</div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="accordion accordion-flush finance-acco-feq ps-xl-50" id="accordionFinanceFaq2">
+                        <div class="accordion-item mb-32">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button no-toggle fs-22 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEig" aria-expanded="false" aria-controls="flush-collapseEig">
+                                    <span class="fs-2 me-20 text-dark-title"><i class="ri-shield-check-line"></i></span>
+                                    Is my financial data secure with your platform?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseEig" class="accordion-collapse show" data-bs-parent="#accordionFinanceFaq2">
+                                <div class="accordion-body ms-28 fs-6">Yes, your financial data is encrypted and securely stored using industry-standard protections. We prioritize privacy and comply with major data security regulations like GDPR.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-32">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button no-toggle fs-22 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNin" aria-expanded="false" aria-controls="flush-collapseNin">
+                                    <span class="fs-2 me-20 text-dark-title"><i class="ri-group-line"></i></span>
+                                    Can multiple team members access account?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseNin" class="accordion-collapse show" data-bs-parent="#accordionFinanceFaq2">
+                                <div class="accordion-body ms-28 fs-6">Yes, depending on your plan, you can add multiple users with customizable access and roles.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button no-toggle fs-22 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwe" aria-expanded="false" aria-controls="flush-collapseTwe">
+                                    <span class="fs-2 me-20 text-dark-title"><i class="ri-customer-service-2-line"></i></span>
+                                    What kind of customer support is available?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwe" class="accordion-collapse show" data-bs-parent="#accordionFinanceFaq2">
+                                <div class="accordion-body ms-28 fs-6">We offer email and live chat support, with priority and dedicated support available on higher-tier plans.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div> 
+     </section>
+
+    <!-- CTA Section -->
+     <section class="section cta-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                 <div class="col-12">
+                    <div class="cta-bg position-relative overflow-hidden px-xl-0 px-sm-5 px-4">
+                        <div class="cta-bg-img ratio ratio-21x9 z-1 position-absolute top-0 left-0 h-100">
+                            <img src="../images/ctabg_img.png" alt="ctabgimg" class="h-100 w-100 object-fit-cover ">
+                        </div>
+                        <div class="cta-content py-100 px-0 position-relative">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-xl-8 col-12">
+                                    <div class="text-center">
+                                        <h1 class="cta-title mb-12">Take the Next Step in Managing Your Finances</h1>
+                                        <p class="cta-text mb-32">Get started today and take the first step toward effortless financial management. Explore powerful features like invoicing, expense tracking, and customizable reporting—all designed to save you time and keep your business on track.</p>
+                                        <div class="d-flex flex-sm-nowrap flex-wrap justify-content-center align-items-center gap-3">
+                                            <button class="btn btn-light rounded-pill">Get Started</button>
+                                            <button class="btn btn-custom-light rounded-pill">Try It Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    %%include("partials/layout/footer.html")
+
+
+    %%include("partials/layout/footer-js.html")
+    <script src="plugins/swiper/swiper-bundle.min.js"></script>
+    <script src="js/pages/finance.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+// finance.scss
+
+.finance-hero {
+    .hero-title {
+        @media (min-width: 576px) {
+            font-size: 50px;
+            line-height: 3.875rem;
+        }
+
+        color: var(--bs-navlink-color);
+        font-weight: $font-weight-semibold;
+        margin-bottom: 1.25rem;
+        filter: drop-shadow(0px 4px 4px rgba($gray-900, 0.2));
+    }
+
+    .chart-img {
+        @media (min-width: 1200px) {
+            padding-right: 36px;
+        }
+
+        filter: drop-shadow(10px 14px 14px rgba($gray-900, 0.2));
+    }
+
+}
+
+.fin-card-link {
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    color: var(--bs-hero-badge-color);
+    font-weight: $font-weight-medium;
+
+    span {
+        transition: $transition-base;
+
+        i {
+            font-size: 20px;
+            transition: $transition-base;
+        }
+
+    }
+
+    &:hover {
+        span {
+            transform: translateX(10px);
+        }
+    }
+}

@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    %%include('partials/layout/meta.html')
+    %%include('partials/layout/css.html')
+</head>
+
+
+<body class="bg-gray">
+    <!-- navbar -->
+    %%include('partials/layout/navbar.html')
+
+    <!-- Hero Section -->
+    <section class="hero-secondary-section features-hero features-hero-bgimg">
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center">
+                <div class="col-xl-10 col-12 mb-4">
+                    <h1 class="hero-title fw-semibold mb-0 text-dark-title">Unlock a Smarter Way to Lend & Borrow
+                        with<span class="text-primary">
+                            Cutting-Edge Features </span>That Work for You</h1>
+                </div>
+                <div class="col-xl-8 col-12 mb-32">
+                    <p class="mb-0">Securely store, manage, and deploy your files or apps with scalable cloud
+                        infrastructure—no
+                        servers, no stress, just performance you can trust.</p>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex justify-content-center align-items-center gap-3">
+                        <button class="btn btn-primary rounded-pill">Get Started</button>
+                        <button class="btn btn-outline-dark btn-dark-outline rounded-pill">Try It Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- trusted by section -->
+    <section class="section sec-bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    %%include('partials/components/sectitle.html',{"title":"Trusted Clients"})
+                </div>
+                <div class="col-12">
+                    <div
+                        class="d-flex flex-wrap justify-content-center align-items-center pt-50 logo-wrap gap-xxl-0 gap-4">
+                        <img src="../../../images/b_logo/logo_1.png" alt="google" class="logo">
+                        <span class="logo-divider d-lg-block d-none"></span>
+                        <img src="../../../images/b_logo/logo_2.png" alt="netflix" class="logo">
+                        <span class="logo-divider d-lg-block d-none"></span>
+                        <img src="../../../images/b_logo/logo_3.png" alt="yahoo" class="logo">
+                        <span class="logo-divider d-lg-block d-none"></span>
+                        <img src="../../../images/b_logo/logo_4.png" alt="canon" class="logo">
+                        <span class="logo-divider d-lg-block d-none"></span>
+                        <img src="../../../images/b_logo/logo_5.png" alt="shopify" class="logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Management SaaS Features -->
+    <section class="section">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Project Management SaaS Features"})
+                    <p class="text-center subtitle">All the Tools You Need to Succeed, In One Platform</p>
+                </div>
+            </div>
+            <!-- features cards -->
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-md-6 col-12 mb-4">
+                    %%include('partials/components/featurescard.html',
+                    {"bg-color":"features-card-bg-light",
+                    "icon-color":"card-icon-soft-primary",
+                    "icon":"ri-line-chart-fill","title":"Smart Task Management",
+                    "description":"Organize, assign, and track tasks with ease using intuitive boards, lists, and timelines,Stay in control from idea to execution. Stay in control from idea to execution."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-4">
+                    %%include('partials/components/featurescard.html',
+                    {"bg-color":"features-card-bg-gray",
+                    "icon-color":"card-icon-soft-success",
+                    "icon":"ri-group-fill","title":"Team Collaboration",
+                    "description":"Comment, tag teammates, and share updates in real-time. Keep everyone in sync — no need to switch between apps."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-4">
+                    %%include('partials/components/featurescard.html',
+                    {"bg-color":"features-card-bg-light",
+                    "icon-color":"card-icon-soft-warning",
+                    "icon":"ri-time-zone-fill","title":"Real-Time Tracking",
+                    "description":"Stay connected and in control whether you’re at your desk or on the go with fully responsive web and mobile apps."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-xl-0 mb-4">
+                    %%include('partials/components/featurescard.html',
+                    {"bg-color":"features-card-bg-gray",
+                    "icon-color":"card-icon-soft-danger",
+                    "icon":"ri-bar-chart-fill","title":"Smart Notifications",
+                    "description":"Seamlessly connect with Slack, Google Workspace, Zoom, and more — so your workflow stays smooth and connected."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-xl-0 mb-4">
+                    %%include('partials/components/featurescard.html',
+                    {"bg-color":"features-card-bg-light",
+                    "icon-color":"card-icon-soft-indigo",
+                    "icon":"ri-file-text-fill","title":"Insights & Reports",
+                    "description":"Visual dashboards and performance metrics help you monitor progress, identify blockers, and make better decisions, faster."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-xl-0 mb-4">
+                    %%include('partials/components/featurescard.html',
+                    {"bg-color":"features-card-bg-gray",
+                    "icon-color":"card-icon-soft-info",
+                    "icon":"ri-file-shield-2-fill","title":"Cloud-Based & Secure",
+                    "description":"Integrated project calendars, recurring tasks, and smart deadlines ensure no one ever misses a beat."})
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CRM/ERP Software Features -->
+    <section class="section features-section sec-bg-light">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-47">
+                    %%include('partials/components/sectitle.html',{"title":"CRM/ERP Software Features"})
+                    <p class="text-center subtitle">Explore the Powerful Features That Drive Success.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 mb-40">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link tab active" aria-current="page" href="#" data-target="crm"><span><i class="ri-pages-line"></i></span>CRM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tab" href="#" data-target="erp"><span><i class="ri-pie-chart-2-line"></i></span>ERP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tab" href="#" data-target="integrations"><span><i class="ri-links-line"></i></span>Integrations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tab"  href="#" data-target="mobileaccess"><span><i class="ri-mobile-download-line"></i></span>Mobile Access</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-12 mb-lg-0 mb-5">
+                    <img src="../images/software/features.png" alt="Featuresimg" class="img-fluid">
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-12">
+                    <div class="features-content" id="crm">
+                        <h2 class="fw-medium text-dark-title mb-3">Powerful<span class="text-primary fw-semibold"> CRM Features </span>for Every Stage of the Customer Journey</h2>
+                        <p class="fs-6">Our CRM brings all your customer data, conversations, and sales activities into one streamlined platform. From capturing leads to closing deals, you’ll have full visibility into your pipeline, automated workflows to save time, and smart insights to help you build stronger relationships.</p>
+                        <p class="fs-6">Whether you're a small team or scaling fast, our CRM adapts to your workflow—so you can focus on growing revenue, not juggling tools.</p>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-pie-chart-2-line"></i></span>
+                            <p class="mb-0">Lead Management and Tracking System</p>
+                        </div>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-user-community-line"></i></span>
+                            <p class="mb-0">Comprehensive Contact Information Tracking</p>
+                        </div>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-mail-send-line"></i></span>
+                            <p class="mb-0">Effective Email Marketing Campaigns</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <span class="tool-icon me-3"><i class="ri-customer-service-2-line"></i></span>
+                            <p class="mb-0">24/7 Customer Support and Assistance</p>
+                        </div>
+                    </div> 
+                    <div class="features-content" id="erp">
+                        <h2 class="fw-medium text-dark-title mb-3">Powerful<span class="text-primary fw-semibold"> Erp Features </span>for Every Stage of the Customer Journey</h2>
+                        <p class="fs-6">Our ERP brings all your customer data, conversations, and sales activities into one streamlined platform. From capturing leads to closing deals, you’ll have full visibility into your pipeline, automated workflows to save time, and smart insights to help you build stronger relationships.</p>
+                        <p class="fs-6">Whether you're a small team or scaling fast, our CRM adapts to your workflow—so you can focus on growing revenue, not juggling tools.</p>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-wallet-line"></i></span>
+                            <p class="mb-0">Financial Management</p>
+                        </div>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-team-line"></i> </span>
+                            <p class="mb-0">Human Resources (HR)</p>
+                        </div>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-bar-chart-box-line"></i></span>
+                            <p class="mb-0">Reports & Analytics</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <span class="tool-icon me-3"><i class="ri-settings-3-line"></i></span>
+                            <p class="mb-0">Manufacturing & Production</p>
+                        </div>
+                    </div>    
+                    <div class="features-content" id="integrations">
+                        <h2 class="fw-medium text-dark-title mb-3">Powerful<span class="text-primary fw-semibold"> Integrations Features </span>for Every Stage of the Customer Journey</h2>
+                        <p class="fs-6">Our Integration brings all your customer data, conversations, and sales activities into one streamlined platform. From capturing leads to closing deals, you’ll have full visibility into your pipeline, automated workflows to save time, and smart insights to help you build stronger relationships.</p>
+                        <p class="fs-6">Whether you're a small team or scaling fast, our CRM adapts to your workflow—so you can focus on growing revenue, not juggling tools.</p>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-folder-6-fill"></i></span>
+                            <p class="mb-0">Project Management</p>
+                        </div>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-download-cloud-line"></i></span>
+                            <p class="mb-0">Cloud & Storage</p>
+                        </div>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-paint-line"></i></span>
+                            <p class="mb-0">Design Tools</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <span class="tool-icon me-3"><i class="ri-hashtag"></i></span>
+                            <p class="mb-0">Social Media</p>
+                        </div>
+                    </div>  
+                    <div class="features-content" id="mobileaccess">
+                        <h2 class="fw-medium text-dark-title mb-3">Powerful<span class="text-primary fw-semibold"> Mobile Access Features </span>for Every Stage of the Customer Journey</h2>
+                        <p class="fs-6">Our Mobile Access brings all your customer data, conversations, and sales activities into one streamlined platform. From capturing leads to closing deals, you’ll have full visibility into your pipeline, automated workflows to save time, and smart insights to help you build stronger relationships.</p>
+                        <p class="fs-6">Whether you're a small team or scaling fast, our CRM adapts to your workflow—so you can focus on growing revenue, not juggling tools.</p>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-smartphone-line"></i></span>
+                            <p class="mb-0">Lead Management and Tracking System</p>
+                        </div>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-computer-line"></i></span>
+                            <p class="mb-0">Mobile Devices</p>
+                        </div>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-message-line"></i></span>
+                            <p class="mb-0">Communication</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <span class="tool-icon me-3"><i class="ri-menu-line"></i></span>
+                            <p class="mb-0">Mobile UI Elements</p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Smart AI Features -->
+    <section class="section">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-78">
+                    %%include('partials/components/sectitle.html',{"title":"Smart AI Features"})
+                    <p class="text-center subtitle">Explore the smart tools and capabilities designed to streamline your workflow and boost efficiency.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-xl-5 col-12 order-xl-1 order-2">
+                    <h3 class="fw-medium text-dark-title mb-10">Powerful<span class="text-primary"> AI Features
+                        </span>Designed to Supercharge Your Workflow</h3>
+                    <p class="mb-20 fs-6">Experience the next generation of productivity tools. Our AI-powered features
+                        are crafted to automate everyday tasks, deliver real-time insights, and adapt to your unique
+                        working style—so you can achieve more in less time.</p>
+                    <div class="d-flex">
+                        <span class="me-2"><i class="ri-search-line"></i></span>
+                        <div>
+                            <h5 class="mb-1 fw-medium">Intelligent Task Automation</h5>
+                            <p class="fs-6 mb-12">Automatically handle repetitive processes and focus on high-value
+                                work.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <span class="me-2"><i class="ri-bar-chart-box-line"></i></span>
+                        <div>
+                            <h5 class="mb-1 fw-medium">Real-Time Data Insights</h5>
+                            <p class="fs-6 mb-12">Make smarter decisions faster with AI-driven analytics and reporting.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <span class="me-2"><i class="ri-flashlight-line"></i></span>
+                        <div>
+                            <h5 class="mb-1 fw-medium">Seamless Integration</h5>
+                            <p class="fs-6 mb-12">Easily connect with your existing tools for a frictionless workflow.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <span class="me-2"><i class="ri-robot-2-line"></i></span>
+                        <div>
+                            <h5 class="mb-1 fw-medium">Adaptive Learning Capabilities</h5>
+                            <p class="fs-6 mb-0">The system improves continuously, tailoring its behavior to your
+                                habits.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 offset-xl-1 col-12 order-xl-2 order-1 mb-xl-0 mb-4">
+                    <img src="../images/aichatboat/aifeatureimg.jpg" alt=" AI image"
+                        class="img-fluid img-border-radius mb-32">
+                    <h4 class="text-dark-title">Advanced AI Tools Tailored for Modern Teams & Seamless Collaboration
+                    </h4>
+                    <p class="fs-6 mb-0">Empower your team with intelligent tools designed to simplify complex tasks,
+                        foster real-time collaboration, and reduce manual effort. From smart recommendations to adaptive
+                        workflows, our AI features evolve with your needs—helping your team stay focused, aligned, and
+                        ahead of the curve.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Finance Features -->
+    <section class="section sec-bg-light">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Finance/Billing Software Features"})
+                    <p class="text-center subtitle">Explore the core tools designed to simplify billing, automate your workflow, and give you full control over your financial operations—all in one secure platform.
+                    </p>
+                </div>
+            </div>
+
+            <!-- features-card1 -->
+            <div class="row justify-contenmt-center align-items-center mb-lg-60 mb-5">
+                <div class="col-lg-5 col-12 mb-lg-0 mb-4">
+                    %%include('partials/components/featurescard2img.html',{"borderclass":"img-left-border","img":"features1.jpg"})
+                </div>
+                <div class="col-lg-6 offset-lg-1 col-12">
+                    <h3 class="text-dark-title mb-12">Smart Invoicing Made Effortless</h3>
+                    <p>Easily create, customize, and manage professional invoices that get you paid faster. Whether
+                        you're billing clients once or on a recurring basis, everything is handled smoothly.</p>
+                    <ul class="fs-6 mb-4">
+                        <li class="mb-1">Create branded, professional invoices in seconds</li>
+                        <li class="mb-1">Automate recurring billing cycles</li>
+                        <li>Track payment status in real-time</li>
+                    </ul>
+                    <a href="#" class="fw-medium fin-card-link">Learn More<span class="ms-12"><i
+                                class="ri-arrow-right-long-line"></i></span></a>
+                </div>
+            </div>
+
+            <!-- features-card2 -->
+            <div class="row justify-contenmt-center align-items-center mb-lg-60 mb-5">
+                <div class="col-lg-6 col-12 order-lg-1 order-2">
+                    <h3 class="text-dark-title mb-12">Streamlined Expense Tracking</h3>
+                    <p>Stay on top of every business expense with automated tracking and categorization. No more lost
+                        receipts or scattered spreadsheets.</p>
+                    <ul class="fs-6 mb-4">
+                        <li class="mb-1">Upload receipts and auto-categorize expenses</li>
+                        <li class="mb-1">Set spending limits and monitor budgets</li>
+                        <li>Sync expenses with accounting reports</li>
+                    </ul>
+                    <a href="#" class="fw-medium fin-card-link">Learn More<span class="ms-12"><i
+                                class="ri-arrow-right-long-line"></i></span></a>
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-12 mb-lg-0 mb-4 order-lg-2 order-1">
+                    %%include('partials/components/featurescard2img.html',{"borderclass":"img-right-border","img":"features2.jpg"})
+                </div>
+            </div>
+
+            <!-- features-card3 -->
+            <div class="row justify-contenmt-center align-items-center mb-lg-60 mb-5">
+                <div class="col-lg-5 col-12 mb-lg-0 mb-4">
+                    %%include('partials/components/featurescard2img.html',{"borderclass":"img-left-border","img":"features3.jpg"})
+                </div>
+                <div class="col-lg-6 offset-lg-1 col-12">
+                    <h3 class="text-dark-title mb-12">Real-Time Reports & Interactive Dashboards</h3>
+                    <p>Make smarter decisions with visual reports and dashboards that reflect your live financial data.
+                        Analyze performance, trends, and cash flow with ease.</p>
+                    <ul class="fs-6 mb-4">
+                        <li class="mb-1">Visual dashboards for income, expenses, and profits</li>
+                        <li class="mb-1">Custom reports for tax, revenue, and more</li>
+                        <li>Export data in one click for deeper insights</li>
+                    </ul>
+                    <a href="#" class="fw-medium fin-card-link">Learn More<span class="ms-12"><i
+                                class="ri-arrow-right-long-line"></i></span></a>
+                </div>
+            </div>
+
+            <!-- features-card4 -->
+            <div class="row justify-contenmt-center align-items-center mb-lg-60 mb-5">
+                <div class="col-lg-6 col-12 order-lg-1 order-2">
+                    <h3 class="text-dark-title mb-12">Powerful Integrations That Work for You</h3>
+                    <p>Connect your favorite tools and automate your workflows. From payment gateways to accounting
+                        platforms, our integrations save time and reduce errors.</p>
+                    <ul class="fs-6 mb-4">
+                        <li class="mb-1">Seamless integration with Stripe, PayPal, Xero, and more</li>
+                        <li class="mb-1">Connect CRMs and automate invoicing workflows</li>
+                        <li>Reduce manual data entry with synced systems</li>
+                    </ul>
+                    <a href="#" class="fw-medium fin-card-link">Learn More<span class="ms-12"><i
+                                class="ri-arrow-right-long-line"></i></span></a>
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-12 mb-lg-0 mb-4 order-lg-2 order-1">
+                    %%include('partials/components/featurescard2img.html',{"borderclass":"img-right-border","img":"features4.jpg"})
+                </div>
+            </div>
+
+            <!-- features-card5 -->
+            <div class="row justify-contenmt-center align-items-center mb-lg-60 mb-5">
+                <div class="col-lg-5 col-12 mb-lg-0 mb-4">
+                    %%include('partials/components/featurescard2img.html',{"borderclass":"img-left-border","img":"features5.jpg"})
+                </div>
+                <div class="col-lg-6 offset-lg-1 col-12">
+                    <h3 class="text-dark-title mb-12">Multi-Currency & Smart Tax Management</h3>
+                    <p>Expand globally with support for multiple currencies and automated tax handling. Perfect for
+                        businesses that operate across regions or borders.</p>
+                    <ul class="fs-6 mb-4">
+                        <li class="mb-1">Accept payments in 100+ currencies</li>
+                        <li class="mb-1">Auto-calculate GST, VAT, and other local taxes</li>
+                        <li>Generate tax-ready reports for compliance</li>
+                    </ul>
+                    <a href="#" class="fw-medium fin-card-link">Learn More<span class="ms-12"><i
+                                class="ri-arrow-right-long-line"></i></span></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Cloud Storage/Hosting SaaS Feature -->
+    <section class="section bg-gray cloud-features-sec">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Feature Breakdown"})
+                    <p class="text-center subtitle">Explore powerful features designed to deliver secure, scalable, and
+                        high-performance cloud storage and hosting.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-5 col-12">
+                    <h3 class="fs-26 text-dark-title mb-32 text-center">Cloud Storage Features</h3>
+                    <div class="h-100">
+                        <!-- card1 -->
+                        <div class="storage-features mb-3">
+                            <div class="card feature-card3 card-icon-soft-blue h-100">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="icon me-4">
+                                            <span class="lh-1"><i class="ri-folder-upload-line"></i></span>
+                                        </div>
+                                        <div>
+                                            <h5 class="fs-22 fw-medium text-dark-title mb-1">Unlimited file types and
+                                                sizes
+                                            </h5>
+                                            <p class="fs-6 mb-0">Store and manage any file type without restrictions—no
+                                                limits
+                                                on size, format, or usage.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card2 -->
+                        <div class="storage-features mb-3">
+                            <div class="card feature-card3 card-icon-soft-primary h-100">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="icon me-4">
+                                            <span class="lh-1"><i class="ri-code-s-line"></i></span>
+                                        </div>
+                                        <div>
+                                            <h5 class="fs-22 fw-medium text-dark-title mb-1">API for custom integrations
+                                            </h5>
+                                            <p class="fs-6 mb-0">Easily connect your apps and workflows with powerful
+                                                APIs
+                                                designed for seamless custom integrations.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card3 -->
+                        <div class="storage-features mb-3">
+                            <div class="card feature-card3 card-icon-soft-orange h-100">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="icon me-4">
+                                            <span class="lh-1"><i class="ri-share-line"></i></span>
+                                        </div>
+                                        <div>
+                                            <h5 class="fs-22 fw-medium text-dark-title mb-1">Folder sharing & access
+                                                control
+                                            </h5>
+                                            <p class="fs-6 mb-0">Share folders securely and control access with
+                                                customizable
+                                                permissions for teams and collaborators.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card4 -->
+                        <div class="storage-features mb-3">
+                            <div class="card feature-card3 card-icon-soft-success h-100">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="icon me-4">
+                                            <span class="lh-1"><i class="ri-file-cloud-line"></i></span>
+                                        </div>
+                                        <div>
+                                            <h5 class="fs-22 fw-medium text-dark-title mb-1">Automated backups</h5>
+                                            <p class="fs-6 mb-0">Keep your data safe with scheduled, automated backups
+                                                that
+                                                ensure quick recovery and peace of mind.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card5 -->
+                        <div class="storage-features">
+                            <div class="card feature-card3 card-icon-soft-danger h-100">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="icon me-4">
+                                            <span class="lh-1"><i class="ri-chat-history-line"></i></span>
+                                        </div>
+                                        <div>
+                                            <h5 class="fs-22 fw-medium text-dark-title mb-1">File versioning and
+                                                recovery
+                                            </h5>
+                                            <p class="fs-6 mb-0">Track and restore previous file versions with ease,
+                                                ensuring you never lose important data.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 my-lg-0 my-5">
+                    <div
+                        class="h-100 d-flex flex-lg-column flex-row justify-content-center align-items-center position-relative">
+                        <div class="vertical-border"></div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12">
+                    <h3 class="fs-26 text-dark-title mb-32 text-center">Cloud Hosting Features</h3>
+                    <div class="h-100">
+                        <!-- card6 -->
+                        <div class="hosting-features mb-3">
+                            <div class="card feature-card3 card-icon-soft-success h-100">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="icon me-4">
+                                            <span class="lh-1"><i class="ri-flashlight-line"></i></span>
+                                        </div>
+                                        <div>
+                                            <h5 class="fs-22 fw-medium text-dark-title mb-1">1 Click Deployment</h5>
+                                            <p class="fs-6 mb-0">Launch your apps or websites instantly with 1-click
+                                                deployment—no setup hassles, just go live in seconds.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card7 -->
+                        <div class="hosting-features mb-3">
+                            <div class="card feature-card3 card-icon-soft-info h-100">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="icon me-4">
+                                            <span class="lh-1"><i class="ri-git-branch-line"></i></span>
+                                        </div>
+                                        <div>
+                                            <h5 class="fs-22 fw-medium text-dark-title mb-1">Git-based Deployment</h5>
+                                            <p class="fs-6 mb-0">Push code directly from your Git repository for fast,
+                                                streamlined, and version-controlled deployments.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card8 -->
+                        <div class="hosting-features mb-3">
+                            <div class="card feature-card3 card-icon-soft-primary h-100">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="icon me-4">
+                                            <span class="lh-1"><i class="ri-bar-chart-line"></i></span>
+                                        </div>
+                                        <div>
+                                            <h5 class="fs-22 fw-medium text-dark-title mb-1">Auto-scaling Infrastructure
+                                            </h5>
+                                            <p class="fs-6 mb-0">Automatically adjusts resources to handle traffic
+                                                spikes
+                                                and growth without manual intervention.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card9 -->
+                        <div class="hosting-features mb-3">
+                            <div class="card feature-card3 card-icon-soft-blue h-100">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="icon me-4">
+                                            <span class="lh-1"><i class="ri-cpu-line"></i></span>
+                                        </div>
+                                        <div>
+                                            <h5 class="fs-22 fw-medium text-dark-title mb-1">Container or Server less
+                                                Support</h5>
+                                            <p class="fs-6 mb-0">Deploy using containers or server less functions with
+                                                full
+                                                flexibility and modern architecture support.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card10 -->
+                        <div class="hosting-features">
+                            <div class="card feature-card3 card-icon-soft-danger h-100">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="icon me-4">
+                                            <span class="lh-1"><i class="ri-shield-check-line"></i></span>
+                                        </div>
+                                        <div>
+                                            <h5 class="fs-22 fw-medium text-dark-title mb-1">SSL & Domains</h5>
+                                            <p class="fs-6 mb-0">Secure your site with free SSL and manage custom
+                                                domains—all in one place, hassle-free.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section sec-bg-light">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                     %%include('partials/components/sectitle.html',{"title":"Trusted by Teams Worldwide"})
+                     <p class="text-center subtitle">Don’t just take our word for it — hear how Mantraksh Devs is helping teams streamline workflows, boost productivity, and deliver outstanding results.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="swiper testiSwiper">
+                        <div class="swiper-wrapper">
+                            <!-- slide1 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard.html',{"bg-color":"testi-card-bg-light","img":"avatar2.jpg","name":"Liam Schneider","pose":"Product Manager – Germany"})
+                            </div>
+
+                             <!-- slide2 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard.html',{"bg-color":"testi-card-bg-light","img":"avatar1.jpg","name":"Isabella Moretti","pose":"UX Designer – Italy"})
+                            </div>
+
+                            <!-- slide3 -->
+                             <div class="swiper-slide">
+                                 %%include('partials/components/testicard.html',{"bg-color":"testi-card-bg-light","img":"avatar3.jpg","name":"Mateo Alvarez","pose":"Project Lead – Spain"})
+                             </div>
+                             
+                            <!-- slide4 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard.html',{"bg-color":"testi-card-bg-light","img":"avatar7.jpg","name":"Rosa E. Hackney","pose":"UI/UX Designer-London"})
+                            </div>
+
+                            <!-- slide5 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard.html',{"bg-color":"testi-card-bg-light","img":"avatar4.jpg","name":"Omar Khan","pose":"UX Designer-India"})
+                            </div>
+
+                            <!-- slide6 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard.html',{"bg-color":"testi-card-bg-light","img":"avatar5.jpg","name":"Priya Sharma","pose":"Product Manager-India"})
+                            </div>
+
+                            <!-- slide7 -->
+                             <div class="swiper-slide">
+                               %%include('partials/components/testicard.html',{"bg-color":"testi-card-bg-light","img":"avatar6.jpg","name":"James Smith","pose":"Project Lead-Japan"})
+                            </div>
+                        </div>
+                        <div class="swiper-button d-flex justify-content-center align-items-center gap-4 mt-4">
+                            <div class="swiper-btn-prev">
+                                <span>
+                                    <i class="ri-arrow-left-fill"></i>
+                                </span>
+                            </div>
+                            <div class="swiper-btn-next">
+                                <span>
+                                    <i class="ri-arrow-right-fill"></i>
+                                </span>
+                            </div>    
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section features-cta-sec">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-xl-5 col-12">
+                    <h1 class="cta-title fw-semibold text-dark-title text-xl-start text-center">Your Next Step Toward Simpler, Smarter Lending</h1>
+                </div>
+                <div class="col-xl-6 offset-xl-1 col-12">
+                    <p class="mb-4 cta-text text-xl-start text-center">Take the guesswork out of lending. Whether you're borrowing or investing, our platform gives you the tools, insights, and support to move forward with confidence. Fast approvals, transparent terms, and smart features—everything you need to make better financial decisions, all in one place.</p>
+                    <div class="d-flex align-items-center justify-content-xl-start justify-content-center gap-3">
+                        <button class="btn btn-primary rounded-pill">Get Started</button>
+                        <button class="btn btn-outline-dark btn-dark-outline rounded-pill">Try It Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    %%include("partials/layout/footer.html")
+
+
+    %%include("partials/layout/footer-js.html")
+    <script src="plugins/swiper/swiper-bundle.min.js"></script>
+    <script src="js/pages/home.js"></script>
+    <script src="js/pages/software.js"></script>
+</body>
+
+</html>

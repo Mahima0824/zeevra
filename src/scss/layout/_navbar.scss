@@ -1,0 +1,117 @@
+// navbar.scss
+.navbar {
+    z-index: 9999;
+    background-color: transparent;
+
+    &.navbar-scrolled,
+    &.expanded {
+        backdrop-filter: blur(30px);
+        background: rgba(var(--bs-nav-bg-color), 0.1);
+    }
+
+    .navbar-brand {
+        @media (min-width: 576px) {
+            .logo-dark {
+                display: block !important;
+            }
+
+            .logo-light {
+                display: none !important;
+            }
+        }
+
+        @media (min-width: 0px) and (max-width: 575.98px) {
+            .logo-dark,
+            .logo-light {
+                display: none;
+            }
+        }
+    }
+
+    .navbar-toggler {
+        color: $primary;
+        background-color: transparent;
+        border-color: transparent;
+
+        &:hover,
+        &[aria-expanded="true"] {
+            transform: scale(0.9);
+            border-color: $primary;
+            box-shadow: .35rem .35rem rgba($primary, .15)
+        }
+    }
+
+    .navbar-collapse {
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: var(--bs-cta-border);
+
+                    &:hover,
+                    &:focus,
+                    &.active {
+                        color: var(--bs-hero-badge-color);
+                    }
+
+                    @media (min-width: 1200px) {
+                        padding: $nav-link-padding-y $nav-link-padding-x;
+                    }
+
+                    @media (min-width: 0px) and (max-width: 1199.98px) {
+                        padding: 0.5rem;
+                    }
+                }
+
+                &.dropdown {
+                    .dropdown-toggle {
+                        background-color: transparent;
+                        border: 1px solid transparent;
+
+                        &::after {
+                            display: none !important;
+                        }
+                    }
+
+                    .dropdown-menu {
+                        padding: 16px 8px;
+                        border: 1px solid var(--bs-features-card-border-color);
+
+                        .dropdown-item {
+                            transition: all 0.1s linear;
+                            color: var(--bs-navlink-color);
+
+                            &:hover {
+                                background-color: var(--drop-item-bg);
+                                color: var(--bs-hero-badge-color);
+                                border-radius: $border-radius-pill;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+[data-bs-theme="dark"] {
+    .navbar {
+        .navbar-brand {
+            @media (min-width: 576px) {
+                .logo-dark {
+                    display: none !important;
+                }
+
+                .logo-light {
+                    display: block !important;
+                }
+            }
+
+            @media (min-width: 0px) and (max-width: 575.98px) {
+                .logo-dark,
+                .logo-light {
+                    display: none;
+                }
+            }
+        }
+    }
+}

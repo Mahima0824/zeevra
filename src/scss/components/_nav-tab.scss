@@ -1,0 +1,46 @@
+// nav-tabs.scss
+.nav {
+    &.nav-pills {
+        gap: 24px;
+
+        .nav-item {
+            text-align: center;
+
+            .nav-link {
+                font-weight: $font-weight-medium;
+                font-size: 22px;
+                color: var(--bs-text-muted);
+                border: 1px solid transparent;
+                border-bottom: 1px solid var(--bs-features-card-border-color);
+                border-radius: 0;
+                transition: $transition-base;
+
+                &:hover,
+                &.active {
+                    color: var(--bs-hero-badge-color);
+                    background: var(--bs-nav-tabs);
+                    border: 1px solid var(--bs-hero-badge-bg);
+                    border-bottom: 2px solid var(--bs-video-border-color);
+                    border-radius: 4px;
+
+                }
+            }
+        }
+    }
+
+    @media (min-width: 992px) {
+        &.nav-pills {
+            justify-content: space-between;
+
+            .nav-item {
+                flex: 1;
+            }
+        }
+    }
+
+    @media (min-width: 0px) and (max-width: 991.98px) {
+        &.nav-pills {
+            justify-content: center;
+        }
+    }
+}

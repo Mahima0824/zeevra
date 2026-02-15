@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    %%include('partials/layout/meta.html')
+    %%include('partials/layout/css.html')
+</head>
+
+<body>
+    <section class="auth-page">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-xl-6 col-lg-8 col-md-10 col-12">
+                    <div class="card auth-card">
+                        <div class="card-body">
+                            <h2 class="text-dark-title fw-semibold  text-center">Create your Account</h2>
+                            <p class="mb-4  text-center">Let's get started with your 30 days free trial</p>
+                            <a href="#"
+                                class="btn btn-light btn-sm rounded-pill w-100 d-flex align-items-center justify-content-center">
+                                <img src="./images/google.png" alt="continue with google">
+                                <span class="ms-2">Login with Google</span>
+                            </a>
+                            <hr class="mb-4 mt-5">
+                            <form class="contact-form">
+                                <div class="mb-3">
+                                    <label for="inputname2" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="inputname2"
+                                        placeholder="Enter your name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="inputemail2" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="inputemail2"
+                                        placeholder="Enter your email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="inputpassword1" class="form-label">Password</label>
+                                    <input type="email" class="form-control" id="inputpassword1"
+                                        placeholder="Enter your password">
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="checkteamcondition">
+                                    <label class="form-check-label fs-6" for="checkteamcondition">
+                                        I agree to all Term , Privacy Policy and Fees
+                                    </label>
+                                </div>
+                                <hr class="mt-4 mb-5">
+                                <a class="btn btn-dark btn-sm w-100 rounded-pill mb-3" href="index.html" role="button">Sign Up</a>
+                                <p class="form-text text-center mb-0">Already have an account ?<a href="login.html" class="fw-medium log-link"> Log In </a> </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     %%include("partials/layout/footer-js.html")
+</body>
+
+</html>

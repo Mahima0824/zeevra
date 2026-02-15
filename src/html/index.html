@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    %%include('partials/layout/meta.html')
+    %%include('partials/layout/css.html')
+</head>
+
+<body>
+    <!-- navbar -->
+    %%include('partials/layout/navbar.html')
+
+    <!-- hero-section -->
+    <section class="hero-section managesaas-hero-bgimg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="managesaas-hero-content text-center">
+                        <span class="badge hero-badge"><i class="ri-rocket-line fs-6 me-1"></i>Welcome to your new
+                            workspace.</span>
+                        <h1 class="hero-title fw-semibold">Ready to Level Up<span class="text-primary">
+                                Your
+                                Workflow? </span></h1>
+                        <p class="subtitle">Streamline your projects with an all-in-one platform designed for seamless
+                            collaboration and
+                            efficient task management. From task assignments to real-time progress tracking, everything
+                            you
+                            need is just a click away. Whether you're a startup, agency, or enterprise, our solution
+                            helps
+                            you make faster decisions and deliver better results.</p>
+                        <div class="d-flex justify-content-center align-items-center gap-3 mb-60">
+                            <button class="btn btn-primary rounded-pill">Get Started</button>
+                            <button class="btn btn-outline-dark btn-dark-outline rounded-pill">Try It Now</button>
+                        </div>
+                         <div class="img-wrap">
+                            <div class="blur-effe"></div>
+                            <img src="images/managesaas/dashboard.jpg" alt="dashboard" class="img-fluid dashbord-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- trusted by section -->
+    <section class="section bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    %%include('partials/components/sectitle.html',{"title":"Trusted By"})
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-wrap justify-content-center align-items-center pt-50 logo-wrap gap-xxl-0 gap-4">
+                        <img src="../../../images/b_logo/logo_1.png" alt="google" class="logo">
+                        <span class="logo-divider d-lg-block d-none"></span>
+                        <img src="../../../images/b_logo/logo_2.png" alt="netflix" class="logo">
+                        <span class="logo-divider d-lg-block d-none"></span>
+                        <img src="../../../images/b_logo/logo_3.png" alt="yahoo" class="logo">
+                        <span class="logo-divider d-lg-block d-none"></span>
+                        <img src="../../../images/b_logo/logo_4.png" alt="canon" class="logo">
+                        <span class="logo-divider d-lg-block d-none"></span>
+                        <img src="../../../images/b_logo/logo_5.png" alt="shopify" class="logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features section -->
+    <section class="section">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Our Features"})
+                    <p class="text-center subtitle">From task tracking to real-time collaboration, our all-in-one platform
+                        empowers teams to stay organized, meet deadlines, and deliver better results — faster.</p>
+                </div>
+            </div>
+            <!-- features cards -->
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-md-6 col-12 mb-4">
+                    %%include('partials/components/featurescard.html',
+                    {"bg-color":"features-card-bg-light",
+                    "icon-color":"card-icon-soft-primary",
+                    "icon":"ri-line-chart-fill","title":"Smart Task Management",
+                    "description":"Organize, assign, and track tasks with ease using intuitive boards, lists, and timelines,Stay in control from idea to execution. Stay in control from idea to execution."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-4">
+                    %%include('partials/components/featurescard.html',
+                    {"bg-color":"features-card-bg-gray",
+                    "icon-color":"card-icon-soft-success",
+                    "icon":"ri-group-fill","title":"Team Collaboration",
+                    "description":"Comment, tag teammates, and share updates in real-time. Keep everyone in sync — no need to switch between apps."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-4">
+                    %%include('partials/components/featurescard.html',
+                    {"bg-color":"features-card-bg-light",
+                    "icon-color":"card-icon-soft-warning",
+                    "icon":"ri-time-zone-fill","title":"Real-Time Tracking",
+                    "description":"Stay connected and in control whether you’re at your desk or on the go with fully responsive web and mobile apps."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-xl-0 mb-4">
+                    %%include('partials/components/featurescard.html',
+                    {"bg-color":"features-card-bg-gray",
+                    "icon-color":"card-icon-soft-danger",
+                    "icon":"ri-bar-chart-fill","title":"Smart Notifications",
+                    "description":"Seamlessly connect with Slack, Google Workspace, Zoom, and more — so your workflow stays smooth and connected."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-xl-0 mb-4">
+                    %%include('partials/components/featurescard.html',
+                    {"bg-color":"features-card-bg-light",
+                    "icon-color":"card-icon-soft-indigo",
+                    "icon":"ri-file-text-fill","title":"Insights & Reports",
+                    "description":"Visual dashboards and performance metrics help you monitor progress, identify blockers, and make better decisions, faster."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-xl-0 mb-4">
+                    %%include('partials/components/featurescard.html',
+                    {"bg-color":"features-card-bg-gray",
+                    "icon-color":"card-icon-soft-info",
+                    "icon":"ri-file-shield-2-fill","title":"Cloud-Based & Secure",
+                    "description":"Integrated project calendars, recurring tasks, and smart deadlines ensure no one ever misses a beat."})
+                </div>
+            </div>
+            <!-- video -->
+            <div class="row justify-content-center">
+                <div class="col-12 mt-100">
+                    <div class="video-wrap ratio ratio-21x9 img-border-radius">
+                        <img src="../images/managesaas/videoimg.jpg" alt="videoImg" class="z-1">
+                        <div class="overlay z-2"></div>
+                        <div class="play-btn z-3">
+                            <span class="lh-1"><i class="ri-triangle-fill"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section class="section bg-gray">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                     %%include('partials/components/sectitle.html',{"title":"What We Offer"})
+                     <p class="text-center subtitle">Our suite of services is designed to help your team plan, execute, and deliver projects with clarity and confidence—every step of the way.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-md-6 col-12 mb-xl-0 mb-4">
+                    %%include('partials/components/offercard.html',
+                    {"icon":"ri-cloud-line",
+                    "extraclass":"card-icon-circle",
+                    "title":"Cloud-Based Data Management",
+                    "description":"Securely store, organize, and access your business data from anywhere with our powerful cloud infrastructure. Our platform ensures high-speed data retrieval, automated backups, and top-tier encryption to keep your information safe and always available."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-xl-0 mb-4">
+                    %%include('partials/components/offercard.html',
+                    {"icon":"ri-flow-chart",
+                    "extraclass":"card-icon-circle",
+                    "title":"Automated Workflow & Task Management",
+                    "description":"Streamline your operations with intelligent automation tools. From team collaboration to task delegation and performance tracking, our platform helps you boost productivity without the manual hassle."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12">
+                    %%include('partials/components/offercard.html',
+                    {"icon":"ri-line-chart-line",
+                    "extraclass":"card-icon-circle",
+                    "title":"Advanced Analytics & Reporting",
+                    "description":"Make informed decisions with deep insights into your business performance. Our advanced analytics dashboard gives you customizable reports, KPIs, and visualizations to track growth, user behavior, and ROI effortlessly."})
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us section -->
+    <section class="section">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                     %%include('partials/components/sectitle.html',{"title":"About Us"})
+                     <p class="text-center subtitle">We're a passionate team of builders, designers, and problem-solvers committed to helping businesses streamline project management and achieve more—together.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-xl-6 col-12 mb-xl-0 mb-5">
+                    <img src="../images/managesaas/aboutimg.jpg" alt="aboutimg" class="img-fluid img-border-radius">
+                </div>
+                <div class="col-xl-5 offset-xl-1 col-12">
+                    <h4 class="fw-light text-gray-dark mb-12">🚀 Built for Teams. Driven by Innovation.</h4>
+                    <h1 class="fw-medium side-title mb-3">Empowering Your Workflow, Every Step of the Way</h1>
+                    <p class="fs-6 mb-3">At Mantraksh Devs, we’re more than just a software company — we’re a team of innovators, designers, and collaborators on a mission to simplify and elevate UI/UX design.</p>
+                    <p class="fs-6 mb-4">What began as a simple idea has evolved into a powerful SaaS solution trusted by over 1,000 users worldwide. We’re committed to building intuitive, efficient tools that empower teams to create exceptional experiences — without the complexity.</p>
+                    <button class="btn btn-outline-dark btn-dark-outline rounded-3 px-4 py-12">Learn More<span><i class="ri-arrow-right-long-line ms-2"></i></span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section bg-gray">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                     %%include('partials/components/sectitle.html',{"title":"Trusted by Teams Worldwide"})
+                     <p class="text-center subtitle">Don’t just take our word for it — hear how Mantraksh Devs is helping teams streamline workflows, boost productivity, and deliver outstanding results.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="swiper testiSwiper">
+                        <div class="swiper-wrapper">
+                            <!-- slide1 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard.html',{"bg-color":"testi-card-bg-gray","img":"avatar2.jpg","name":"Liam Schneider","pose":"Product Manager – Germany"})
+                            </div>
+
+                             <!-- slide2 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard.html',{"bg-color":"testi-card-bg-gray","img":"avatar1.jpg","name":"Isabella Moretti","pose":"UX Designer – Italy"})
+                            </div>
+
+                            <!-- slide3 -->
+                             <div class="swiper-slide">
+                                 %%include('partials/components/testicard.html',{"bg-color":"testi-card-bg-gray","img":"avatar3.jpg","name":"Mateo Alvarez","pose":"Project Lead – Spain"})
+                             </div>
+                             
+                            <!-- slide4 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard.html',{"bg-color":"testi-card-bg-gray","img":"avatar7.jpg","name":"Rosa E. Hackney","pose":"UI/UX Designer-London"})
+                            </div>
+
+                            <!-- slide5 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard.html',{"bg-color":"testi-card-bg-gray","img":"avatar4.jpg","name":"Omar Khan","pose":"UX Designer-India"})
+                            </div>
+
+                            <!-- slide6 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard.html',{"bg-color":"testi-card-bg-gray","img":"avatar5.jpg","name":"Priya Sharma","pose":"Product Manager-India"})
+                            </div>
+
+                            <!-- slide7 -->
+                             <div class="swiper-slide">
+                               %%include('partials/components/testicard.html',{"bg-color":"testi-card-bg-gray","img":"avatar6.jpg","name":"James Smith","pose":"Project Lead-Japan"})
+                            </div>
+                        </div>
+                        <div class="swiper-button d-flex justify-content-center align-items-center gap-4 mt-4">
+                            <div class="swiper-btn-prev">
+                                <span>
+                                    <i class="ri-arrow-left-fill"></i>
+                                </span>
+                            </div>
+                            <div class="swiper-btn-next">
+                                <span>
+                                    <i class="ri-arrow-right-fill"></i>
+                                </span>
+                            </div>    
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section">
+        <div class="container">
+             <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                     %%include('partials/components/sectitle.html',{"title":"Choose the Plan"})
+                     <p class="text-center subtitle">Choose a plan that fits your needs and start optimizing your projects today.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-md-6 col-12 mb-xl-0 mb-4">
+                    <div class="card price-card price-card-bg-light h-100">
+                        <div class="card-body">
+                            %%include('partials/components/pricecard.html',{"title":"Free","description":"Perfect for individuals and small teams to get started with essential features at no cost.","btn-color":"btn-get-start"})
+                            <ul class="features-list ps-0 mb-0">
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>1 user</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>Basic features</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>Email support</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>Community access</li>
+                                <li><span class="text-danger me-12"><i class="ri-close-line"></i></span>No integrations</li>
+                                <li><span class="text-danger me-12"><i class="ri-close-line"></i></span>Limited storage</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-12  mb-xl-0 mb-4">
+                    <div class="card price-card price-card-bg-primary h-100">
+                        <div class="card-body">
+                            %%include('partials/components/pricecard.html',{"title":"Pro Plan","description":"Unlock advanced tools for growing teams and take your project management to the next level.","btn-color":"btn-primary"})
+                            <ul class="features-list ps-0 mb-0">
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>Up to 5 users</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>All Free features</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>Custom branding</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>Priority support</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>Basic integrations</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>50 GB storage</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div class="card price-card price-card-bg-light h-100">
+                        <div class="card-body">
+                            %%include('partials/components/pricecard.html',{"title":"Business Plan","description":"Designed for larger teams needing full-scale solutions with premium features and priority support.","btn-color":"btn-get-start"})
+                            <ul class="features-list ps-0 mb-0">
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>Unlimited users</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>All Pro features</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>Advanced analytics</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>API access</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>SSO & security controls</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>Dedicated support manager</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>1 TB storage</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section bg-gray">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                     %%include('partials/components/sectitle.html',{"title":"Have Questions?"})
+                     <p class="text-center subtitle">Find answers to the most common questions or reach out to our support team for more help.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-5 col-12 mb-lg-0 mb-5">
+                    <div class="d-flex justify-content-center">
+                        <img src="../images/managesaas/faqsimg.jpg" alt="faqsimg" class="img-fluid img-border-radius"> 
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1 col-12">
+                    <h3 class="fw-medium faq-title">Frequently Asked Questions</h3>
+                    <p class="fs-6 mb-4 text-muted">Have more questions? We’ve got answers.</p>
+                    <div class="accordion managesass-acco-faqs" id="accordionFaqs1">
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button fs-20" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    How does your free trial work?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFaqs1">
+                                <div class="accordion-body">
+                                    <p class="fs-6 mb-0">You get full access to all premium features for 14 days — completely free and with no credit card required. During the trial, you can explore the platform, invite your team, and use all tools just like a paying user. At the end of the trial, you can choose a plan that fits your needs or continue on our free plan with limited features.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fs-20" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How does your free trial work?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs1">
+                                <div class="accordion-body">
+                                    <p class="fs-6 mb-0">You get full access to all premium features for 14 days — completely free and with no credit card required. During the trial, you can explore the platform, invite your team, and use all tools just like a paying user. At the end of the trial, you can choose a plan that fits your needs or continue on our free plan with limited features.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fs-20" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                   Can I cancel anytime?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs1">
+                                <div class="accordion-body">
+                                    <p class="fs-6 mb-0">You get full access to all premium features for 14 days — completely free and with no credit card required. During the trial, you can explore the platform, invite your team, and use all tools just like a paying user. At the end of the trial, you can choose a plan that fits your needs or continue on our free plan with limited features.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fs-20" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                   Is there a limit to the number of users?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs1">
+                                <div class="accordion-body">
+                                    <p class="fs-6 mb-0">You get full access to all premium features for 14 days — completely free and with no credit card required. During the trial, you can explore the platform, invite your team, and use all tools just like a paying user. At the end of the trial, you can choose a plan that fits your needs or continue on our free plan with limited features.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fs-20" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                  Do you integrate with tools like Slack or Zoom?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs1">
+                                <div class="accordion-body">
+                                    <p class="fs-6 mb-0">You get full access to all premium features for 14 days — completely free and with no credit card required. During the trial, you can explore the platform, invite your team, and use all tools just like a paying user. At the end of the trial, you can choose a plan that fits your needs or continue on our free plan with limited features.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CTA Section -->
+    <section class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="cta-img-wrap ratio ratio-21x9">
+                        <img src="../images/managesaas/ctaimg.jpg" alt="ctaImg" class="z-1 h-100 w-100 object-fit-cover">
+                        <div class="overlay z-2"></div>
+                        <div class="content d-flex flex-column justify-content-center align-items-center text-center z-3">
+                            <h5 class="fw-semibold cta-title mb-xl-5 mb-md-3 mb-2">Ready to Take Your Projects <br> to the Next Level?</h5>
+                            <div class="d-flex justify-content-center align-items-center gap-3">
+                                <button class="btn btn-light rounded-pill px-4 py-12 d-lg-block d-none">Get Started Free</button>
+                                <button class="btn btn-primary rounded-pill px-4 py-12">Get Started Free</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    %%include("partials/layout/footer.html")
+    
+    
+    %%include("partials/layout/footer-js.html")
+    <script src="plugins/swiper/swiper-bundle.min.js"></script>
+    <script src="js/pages/home.js"></script>
+
+</body>
+
+</html>

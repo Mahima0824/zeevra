@@ -1,0 +1,235 @@
+.accordion {
+    &.managesass-acco-faqs {
+        .accordion-item {
+            overflow: hidden;
+            border: 1px solid var(--bs-features-card-border-color);
+            border-radius: 10px;
+            box-shadow: 0px 2px 6px 0px rgba($gray-900, 0.3);
+            background-color: transparent;
+
+            .accordion-header {
+                .accordion-button {
+                    &:not(.collapsed) {
+                        border: 1px solid transparent;
+                        padding-bottom: 0;
+                    }
+                }
+            }
+
+        }
+    }
+
+    &.software-acco-faqs {
+        .accordion-item {
+            &:not(:last-child) {
+                margin-bottom: 48px;
+            }
+
+            .accordion-header {
+                .accordion-button {
+                    padding: 0px 0px 24px;
+
+                }
+            }
+        }
+    }
+
+    &.ai-acco-faqs {
+        .accordion-item {
+            &:not(:last-child) {
+                margin-bottom: 32px;
+            }
+
+            .accordion-header {
+                .accordion-button {
+                    padding: 0px 0px 18px;
+
+                }
+            }
+        }
+    }
+
+    &.finance-acco-feq,
+    &.marketing-acco-feq {
+        .accordion-item {
+            .accordion-header {
+                .accordion-button {
+                    &.no-toggle {
+                        pointer-events: none;
+                    }
+                }
+            }
+
+            .accordion-collapse {
+                .accordion-body {
+                    padding: 12px 0px 24px 24px;
+                }
+            }
+        }
+    }
+
+    &.software-acco-faqs,
+    &.ai-acco-faqs,
+    &.finance-acco-feq,
+    &.marketing-acco-feq,
+    &.cloud-acco-faqs {
+        .accordion-item {
+            overflow: hidden;
+            border: 1px solid transparent;
+            border-bottom: 1px solid var(--bs-features-card-border-color);
+            background-color: transparent;
+            transition: $transition-base;
+
+            .accordion-header {
+                .accordion-button {
+                    &::after {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    &.software-acco-faqs,
+    &.ai-acco-faqs {
+        .accordion-item {
+            .accordion-header {
+                .accordion-button {
+                    .toggle-icon {
+                        margin-left: auto;
+                        font-size: 20px;
+                        color: var(--bs-text-muted);
+                        transition: $transition-base;
+                    }
+
+                    &:not(.collapsed) {
+                        color: var(--bs-hero-badge-color);
+
+                        .toggle-icon {
+                            transform: rotate(45deg);
+                            color: var(--bs-hero-badge-color);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.managesass-acco-faqs,
+    &.software-acco-faqs,
+    &.ai-acco-faqs {
+        .accordion-item {
+            .accordion-collapse {
+                .accordion-body {
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+
+    &.managesass-acco-faqs,
+    &.software-acco-faqs,
+    &.ai-acco-faqs,
+    &.finance-acco-feq,
+    &.marketing-acco-feq,
+    &.cloud-acco-faqs {
+        .accordion-item {
+            .accordion-header {
+                .accordion-button {
+                    background-color: transparent;
+                    color: var(--bs-navlink-color);
+                    font-weight: $font-weight-medium;
+                }
+            }
+
+            .accordion-collapse {
+                .accordion-body {
+                    border-top: 1px solid transparent;
+                    background-color: transparent;
+                    color: var(--bs-text-muted);
+                }
+            }
+        }
+    }
+
+    &.team-acco-faqs {
+        .accordion-item {
+            overflow: hidden;
+            border: 1px solid var(--bs-features-card-border-color);
+            border-radius: 10px;
+            background-color: var(--bs-features-card-color-gray);
+            transition: $transition-base;
+
+            &:has(.accordion-button:not(.collapsed)) {
+                background-color: var(--bs-features-card-color-light);
+                box-shadow: 0px 4px 8px 0px rgba($gray-900, 0.1);
+                border-radius: 8px;
+            }
+
+            .accordion-header {
+                .accordion-button {
+                    background-color: transparent;
+                    color: var(--bs-navlink-color);
+                    font-weight: $font-weight-medium;
+                    border: 1px solid transparent;
+                    padding: 24px;
+
+                    &:not(.collapsed) {
+                        padding-bottom: 0;
+                    }
+                }
+            }
+
+            .accordion-collapse {
+                .accordion-body {
+                    background-color: transparent;
+                    padding: 14px 24px 24px;
+                }
+            }
+        }
+    }
+
+    &.cloud-acco-faqs {
+        .accordion-item {
+            &:not(:last-child) {
+                margin-bottom: 24px;
+            }
+
+            .accordion-header {
+                .accordion-button {
+                    padding-top: 0;
+
+                    &.collapsed {
+                        padding-bottom: 24px;
+                    }
+
+                    &:not(.collapsed) {
+                        padding-bottom: 0px;
+
+                        .toggle-icon {
+                            .icon-plus {
+                                display: none;
+                            }
+
+                            .icon-minus {
+                                display: inline-block;
+                            }
+                        }
+                    }
+
+                    .toggle-icon {
+                        position: relative;
+                        margin-left: auto;
+                        font-size: 20px;
+                        color: var(--bs-text-muted);
+
+                        .icon-minus {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

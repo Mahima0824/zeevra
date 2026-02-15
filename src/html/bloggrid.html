@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    %%include('partials/layout/meta.html')
+    %%include('partials/layout/css.html')
+</head>
+
+
+<body class="bg-gray"> 
+    <!-- navbar -->
+    %%include('partials/layout/navbar.html')
+
+    <!-- Hero section -->
+    <section class="hero-secondary-section blog-hero-bgimg blog-hero">
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center">
+                <div class="col-lg-8 col-12">
+                    <div class="text-center">
+                        <h1 class="hero-title fw-semibold mb-4 text-dark-title">Insights That Power Smarter SaaS Decisions</h1>
+                        <p class="mb-4">From AI breakthroughs to project productivity hacks, discover expert articles that keep you ahead of the curve.</p>
+                        <button class="btn btn-primary rounded-pill">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog section -->
+    <section class="section sec-bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- card1 -->
+                <div class="col-lg-6 col-12 mb-5">
+                    <div class="card border-0 bg-transparent blog-card h-100 rounded-0 overflow-hidden">
+                        <img src="../../../images/blog/blogimgs/img1.jpg" alt="img1" class="card-img-top mb-28">
+                         %%include('partials/components/blogcardbody.html',
+                        {"userimg":"avatar1.jpg",
+                        "name":"Joyce J. Neal",
+                        "time":"5",
+                        "date":"Jan 24, 2025",
+                        "title":"Why Project Management SaaS is Replacing Spreadsheets for Good",
+                        "description":"This blog post explores how modern project management software is outpacing traditional spreadsheet tools by offering real-time collaboration, automation, and integrations that teams need to scale efficiently.",
+                        "badge1":"Project Management",
+                        "badge2":"Saas Tools",
+                        "badge3":"Productivity Software"})
+                    </div>
+                </div>
+
+                <!-- card2 -->
+                <div class="col-lg-6 col-12 mb-5">
+                    <div class="card border-0 bg-transparent blog-card h-100 rounded-0 overflow-hidden">
+                        <img src="../../../images/blog/blogimgs/img2.jpg" alt="img2" class="card-img-top mb-28">
+                        %%include('partials/components/blogcardbody.html',{
+                        "userimg":"avatar2.jpg",
+                        "name":"Jordan Patel",
+                        "time":"4",
+                        "date":"Jun 01, 2025",
+                        "title":"5 Must-Have Features in a Modern Project Management SaaS",
+                        "description":"Discover the essential features every modern project management platform must offer. From real-time collaboration to intelligent task tracking, these tools boost productivity and streamline your workflow.",
+                        "badge1":"Project Management",
+                        "badge2":"SaaS Features",
+                        "badge3":"Team Productivity"})
+                    </div>
+                </div>
+
+                <!-- card3 -->
+                <div class="col-lg-6 col-12 mb-5">
+                    <div class="card border-0 bg-transparent blog-card h-100 rounded-0 overflow-hidden">
+                        <img src="../../../images/blog/blogimgs/img3.jpg" alt="img3" class="card-img-top mb-28">
+                        %%include('partials/components/blogcardbody.html',
+                        {"userimg":"avatar3.jpg",
+                        "name":"Daniel T. Morgan",
+                        "time":"5",
+                        "date":"Jun 02, 2025",
+                        "title":"CRM vs. ERP: Key Differences & Why Your Business Might Need Both",
+                        "description":"Learn the core differences between CRM and ERP software, and how they serve distinct yet complementary roles in your business operations. Discover why using both can maximize efficiency and drive growth.",
+                        "badge1":"CRM Tools",
+                        "badge2":"ERP Systems",
+                        "badge3":"Business Software"})
+                    </div>
+                </div>
+
+                <!-- card4 -->
+                <div class="col-lg-6 col-12 mb-5">
+                    <div class="card border-0 bg-transparent blog-card h-100 rounded-0 overflow-hidden">
+                        <img src="../../../images/blog/blogimgs/img4.jpg" alt="img4" class="card-img-top mb-28">
+                        %%include('partials/components/blogcardbody.html',{
+                        "userimg":"avatar4.jpg",
+                        "name":"Olivia K. Jensen",
+                        "time":"4",
+                        "date":"Jun 05, 2025",
+                        "title":"Top 6 Features to Look for in CRM/ERP Software for 2025",
+                        "description":"Choosing the right software starts with knowing what matters most. Here are the six key features to consider in any modern CRM or ERP solution. Choosing the right software starts with knowing what matters mos",
+                        "badge1":"CRM Tools",
+                        "badge2":"ERP Systems",
+                        "badge3":"Business Software"})
+                    </div>
+                </div>
+
+                <!-- card5 -->
+                <div class="col-lg-6 col-12 mb-5">
+                    <div class="card border-0 bg-transparent blog-card h-100 rounded-0 overflow-hidden">
+                        <img src="../../../images/blog/blogimgs/img5.jpg" alt="img5" class="card-img-top mb-28">
+                         %%include('partials/components/blogcardbody.html',
+                        {"userimg":"avatar5.jpg",
+                        "name":"Ethan J. Clarke",
+                        "time":"3",
+                        "date":"Jun 06, 2025",
+                        "title":"How AI Chatbots Are Transforming Customer Support in 2025",
+                        "description":"AI-powered chatbots are redefining how businesses provide support. Explore how automation is improving speed, accuracy, and satisfaction.",
+                        "badge1":"AI Tools",
+                        "badge2":"Customer Experience",
+                        "badge3":"Chatbots"})
+                    </div>
+                </div>
+
+                <!-- card6 -->
+                <div class="col-lg-6 col-12 mb-5">
+                    <div class="card border-0 bg-transparent blog-card h-100 rounded-0 overflow-hidden">
+                        <img src="../../../images/blog/blogimgs/img6.jpg" alt="img6" class="card-img-top mb-28">
+                        %%include('partials/components/blogcardbody.html',{
+                        "userimg":"avatar6.jpg",
+                        "name":"Mia R. Collins",
+                        "time":"4",
+                        "date":"Jun 08, 2025",
+                        "title":"Top 5 AI Productivity Tools You Should Be Using Right Now",
+                        "description":"Want to work smarter? These AI tools help boost focus, streamline tasks, and make your daily workflow more efficient than ever.",
+                        "badge1":"AI Tools",
+                        "badge2":"Productivity Software",
+                        "badge3":"Work Automation"})
+                    </div>   
+                </div>
+
+                <!-- card7 -->
+                <div class="col-lg-6 col-12 mb-5">
+                    <div class="card border-0 bg-transparent blog-card h-100 rounded-0 overflow-hidden">
+                        <img src="../../../images/blog/blogimgs/img7.jpg" alt="img7" class="card-img-top mb-28">
+                        %%include('partials/components/blogcardbody.html',
+                        {"userimg":"avatar7.jpg",
+                        "name":"Noah P. Greene",
+                        "time":"3",
+                        "date":"Jun 10, 2025",
+                        "title":"5 Signs It’s Time to Switch to Automated Billing Software",
+                        "description":"Manual invoicing holding you back? Here are five clear signs that it's time to upgrade to automated billing for accuracy and speed.",
+                        "badge1":"Billing Software",
+                        "badge2":"Finance Automation",
+                        "badge3":"SaaS Tools"})
+                    </div>
+                </div>
+
+                <!-- card8 -->
+                <div class="col-lg-6 col-12 mb-5">
+                    <div class="card border-0 bg-transparent blog-card h-100 rounded-0 overflow-hidden">
+                        <img src="../../../images/blog/blogimgs/img8.jpg" alt="img8" class="card-img-top mb-28">
+                        %%include('partials/components/blogcardbody.html',{
+                        "userimg":"avatar8.jpg",
+                        "name":"Ava M. Sinclair",
+                        "time":"4",
+                        "date":"Jun 12, 2025",
+                        "title":"What to Look for in Finance Software for Subscription-Based Businesses",
+                        "description":"Subscription models need flexible, powerful finance tools. Learn what features are essential to manage recurring revenue with ease.",
+                        "badge1":"Finance Software",
+                        "badge2":"Subscription Billing",
+                        "badge3":"SaaS Accounting"})
+                    </div>
+                </div>
+                
+                <!-- card9 -->
+                <div class="col-lg-6 col-12 mb-lg-0 mb-5">
+                    <div class="card border-0 bg-transparent blog-card h-100 rounded-0 overflow-hidden">
+                        <img src="../../../images/blog/blogimgs/img9.jpg" alt="img9" class="card-img-top mb-28">
+                        %%include('partials/components/blogcardbody.html',
+                        {"userimg":"avatar1.jpg",
+                        "name":"Liam D. Turner",
+                        "time":"4",
+                        "date":"Jun 16, 2025",
+                        "title":"Top 6 Features to Look for in a Marketing Analytics Tool",
+                        "description":"From real-time data to ROI tracking, discover which analytics features your marketing team needs to measure and grow smarter.",
+                        "badge1":"Marketing Tools",
+                        "badge2":"Analytics Software",
+                        "badge3":"Digital Strategy"})
+                    </div>
+                </div>
+
+                <!-- card10 -->
+                <div class="col-lg-6 col-12">
+                    <div class="card border-0 bg-transparent blog-card h-100 rounded-0 overflow-hidden">
+                        <img src="../../../images/blog/blogimgs/img10.jpg" alt="img10" class="card-img-top mb-28">
+                        %%include('partials/components/blogcardbody.html',{
+                        "userimg":"avatar2.jpg",
+                        "name":"Grace L. Bennett",
+                        "time":"3",
+                        "date":"Jun 20, 2025",
+                        "title":"Why Your Marketing Team Needs Analytics Tools Now More Than Ever",
+                        "description":"In a competitive digital world, data is your edge. See why analytics tools are critical for campaign success and team alignment.",
+                        "badge1":"Marketing Strategy",
+                        "badge2":"Data Analytics",
+                        "badge3":"Team Tools"})
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA section -->
+    <section class="section blog-cta">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-7 col-12 order-lg-1 order-2">
+                    <div class="text-lg-start text-center">
+                        <h1 class="fw-semibold text-dark-title cta-title mb-3">Never Miss a Moment in the World of SaaS Innovation</h1>
+                        <p class="mb-lg-42 mb-4 cta-text">Join thousands of SaaS pros getting weekly insights, expert tips, and growth strategies—straight to their inbox.</p>
+                        <button class="btn btn-primary rounded-pill">Get Started</button>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12 order-lg-2 order-1 mb-lg-0 mb-4">
+                    <img src="../images/blog/cta_img.png" alt="girl with megaphone" class="img-fluid girl-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    %%include("partials/layout/footer.html")
+
+    
+    %%include("partials/layout/footer-js.html")
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+// features.scss
+
+.features-hero,
+.price-hero {
+    .hero-title {
+        @media (min-width: 992px) {
+            font-size: 42px;
+            line-height: 60px;
+        }
+
+        filter: drop-shadow(0px 4px 4px rgba($gray-900, 0.2));
+    }
+}
+
+.features-cta-sec {
+    .cta-title {
+        @media (min-width: 768px) {
+            font-size: 46px;
+        }
+        filter: drop-shadow(0px 5px 5px rgba($gray-900, 0.2));
+    }
+    .cta-text{
+        @media (min-width: 768px) {
+            font-size: 20px;
+        }
+    }
+
+}

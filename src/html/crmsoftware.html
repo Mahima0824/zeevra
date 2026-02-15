@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    %%include('partials/layout/meta.html')
+    %%include('partials/layout/css.html')
+</head>
+
+<body>
+    <!-- navbar -->
+    %%include('partials/layout/navbar.html')
+
+    <!-- hero-section -->
+    <section class="hero-section software-hero software-hero-bgimg">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-xl-6 col-12 mb-xl-0 mb-4">
+                    <div class="software-hero-content text-xl-start text-center">
+                        <h1 class="hero-title fw-semibold">Simplify Your Business
+                            Operations with All-in-One <span class="text-primary">CRM & ERP Software</span></h1>
+                        <div class="d-flex justify-content-xl-start justify-content-center align-items-center gap-3">
+                            <button class="btn btn-primary rounded-pill">Get Started</button>
+                            <button class="btn btn-outline-dark btn-dark-outline rounded-pill">Try It Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 offset-xl-1 col-12">
+                    <div class="software-hero-content text-xl-start text-center">
+                        <p>Manage customers, sales, inventory, and finance — all from one powerful platform. Our CRM &
+                            ERP solution brings everything together so your team can work smarter, faster, and more
+                            efficiently.</p>
+                        <p class="mb-4">From lead generation to invoicing and beyond, streamline every workflow with
+                            real-time insights, automation, and full control over your business operations.</p>
+                        <div
+                            class="d-flex flex-sm-nowrap flex-wrap justify-content-xl-start justify-content-center align-items-center gap-sm-5 gap-3">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <h1 class="mb-0 num-count me-sm-4 me-2">1000+</h1>
+                                <p class="fs-6 mb-0 text-start">Cards Delivered</p>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <h1 class="mb-0 num-count me-sm-4 me-2">50k+</h1>
+                                <p class="fs-6 mb-0 text-start">Transection Completed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="hero-video img-border-radius overflow-hidden ratio ratio-16x9">
+                        <img src="../images/software/videoimg.jpg" alt="videoimg" class="h-100 w-100 object-fit-cover">
+                        <div class="overlay z-2"></div>
+                        <div class="play-btn-wrap">
+                            <div class="play-btn z-3">
+                                <span class="lh-1"><i class="ri-triangle-fill"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- trusted by section -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div
+                        class="d-flex flex-wrap justify-content-center align-items-center pt-50 logo-wrap gap-xxl-0 gap-4">
+                        <img src="../../../images/b_logo/logo_1.png" alt="google" class="logo">
+                        <span class="logo-divider d-lg-block d-none"></span>
+                        <img src="../../../images/b_logo/logo_2.png" alt="netflix" class="logo">
+                        <span class="logo-divider d-lg-block d-none"></span>
+                        <img src="../../../images/b_logo/logo_3.png" alt="yahoo" class="logo">
+                        <span class="logo-divider d-lg-block d-none"></span>
+                        <img src="../../../images/b_logo/logo_4.png" alt="canon" class="logo">
+                        <span class="logo-divider d-lg-block d-none"></span>
+                        <img src="../../../images/b_logo/logo_5.png" alt="shopify" class="logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits section -->
+    <section class="section bg-gray">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Key Benefits"})
+                    <p class="text-center subtitle">Discover how our all-in-one CRM & ERP solution helps you save time,
+                        reduce manual work, and make smarter business decisions—faster.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-12 mb-4">
+                    %%include('partials/components/benefitcard.html',
+                    {"icon":"ri-settings-3-line",
+                    "icon-color":"card-icon-soft-primary",
+                    "title":"Seamless Integration",
+                    "description":"eamless integration allows your various business systems—like CRM, ERP, finance, and operations tools—to work together effortlessly. Instead of juggling multiple platforms and manually transferring data, everything is synchronized and connected in real time."})
+                </div>
+                <div class="col-md-6 col-12 mb-4">
+                    %%include('partials/components/benefitcard.html',
+                    {"icon":"ri-robot-2-line",
+                    "icon-color":"card-icon-soft-info",
+                    "title":"Automation",
+                    "description":"Automation streamlines your repetitive tasks and routine processes by using intelligent workflows, so your team can focus on high-value work instead of manual data entry or constant follow-ups."})
+                </div>
+                <div class="col-md-6 col-12 mb-md-0 mb-4">
+                    %%include('partials/components/benefitcard.html',
+                    {"icon":"ri-time-fill",
+                    "icon-color":"card-icon-soft-danger",
+                    "title":"Real-Time Insights",
+                    "description":"Real-time insights give you up-to-the-minute visibility into your business data, so you can respond quickly, spot trends early, and make informed decisions with confidence."})
+                </div>
+                <div class="col-md-6 col-12">
+                    %%include('partials/components/benefitcard.html',
+                    {"icon":"ri-bar-chart-grouped-line",
+                    "icon-color":"card-icon-soft-success",
+                    "title":"Scalability",
+                    "description":"Scalability means your systems, tools, and processes can expand as your business grows—without requiring major overhauls. Whether you're a small team today or a global enterprise tomorrow, your platform evolves with you."})
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features section -->
+    <section class="section features-section">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-47">
+                    %%include('partials/components/sectitle.html',{"title":"Our Features"})
+                    <p class="text-center subtitle">Explore the powerful tools designed to streamline your workflows, boost productivity, and keep every aspect of your business connected.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 mb-40">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link tab active" aria-current="page" href="#" data-target="crm"><span><i class="ri-pages-line"></i></span>CRM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tab" href="#" data-target="erp"><span><i class="ri-pie-chart-2-line"></i></span>ERP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tab" href="#" data-target="integrations"><span><i class="ri-links-line"></i></span>Integrations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tab"  href="#" data-target="mobileaccess"><span><i class="ri-mobile-download-line"></i></span>Mobile Access</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-12 mb-lg-0 mb-5">
+                    <img src="../images/software/features.png" alt="Featuresimg" class="img-fluid">
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-12">
+                    <div class="features-content" id="crm">
+                        <h2 class="fw-medium text-dark-title mb-3">Powerful<span class="text-primary fw-semibold"> CRM Features </span>for Every Stage of the Customer Journey</h2>
+                        <p class="fs-6">Our CRM brings all your customer data, conversations, and sales activities into one streamlined platform. From capturing leads to closing deals, you’ll have full visibility into your pipeline, automated workflows to save time, and smart insights to help you build stronger relationships.</p>
+                        <p class="fs-6">Whether you're a small team or scaling fast, our CRM adapts to your workflow—so you can focus on growing revenue, not juggling tools.</p>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-pie-chart-2-line"></i></span>
+                            <p class="mb-0">Lead Management and Tracking System</p>
+                        </div>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-user-community-line"></i></span>
+                            <p class="mb-0">Comprehensive Contact Information Tracking</p>
+                        </div>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-mail-send-line"></i></span>
+                            <p class="mb-0">Effective Email Marketing Campaigns</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <span class="tool-icon me-3"><i class="ri-customer-service-2-line"></i></span>
+                            <p class="mb-0">24/7 Customer Support and Assistance</p>
+                        </div>
+                    </div> 
+                    <div class="features-content" id="erp">
+                        <h2 class="fw-medium text-dark-title mb-3">Powerful<span class="text-primary fw-semibold"> Erp Features </span>for Every Stage of the Customer Journey</h2>
+                        <p class="fs-6">Our ERP brings all your customer data, conversations, and sales activities into one streamlined platform. From capturing leads to closing deals, you’ll have full visibility into your pipeline, automated workflows to save time, and smart insights to help you build stronger relationships.</p>
+                        <p class="fs-6">Whether you're a small team or scaling fast, our CRM adapts to your workflow—so you can focus on growing revenue, not juggling tools.</p>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-wallet-line"></i></span>
+                            <p class="mb-0">Financial Management</p>
+                        </div>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-team-line"></i> </span>
+                            <p class="mb-0">Human Resources (HR)</p>
+                        </div>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-bar-chart-box-line"></i></span>
+                            <p class="mb-0">Reports & Analytics</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <span class="tool-icon me-3"><i class="ri-settings-3-line"></i></span>
+                            <p class="mb-0">Manufacturing & Production</p>
+                        </div>
+                    </div>    
+                    <div class="features-content" id="integrations">
+                        <h2 class="fw-medium text-dark-title mb-3">Powerful<span class="text-primary fw-semibold"> Integrations Features </span>for Every Stage of the Customer Journey</h2>
+                        <p class="fs-6">Our Integration brings all your customer data, conversations, and sales activities into one streamlined platform. From capturing leads to closing deals, you’ll have full visibility into your pipeline, automated workflows to save time, and smart insights to help you build stronger relationships.</p>
+                        <p class="fs-6">Whether you're a small team or scaling fast, our CRM adapts to your workflow—so you can focus on growing revenue, not juggling tools.</p>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-folder-6-fill"></i></span>
+                            <p class="mb-0">Project Management</p>
+                        </div>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-download-cloud-line"></i></span>
+                            <p class="mb-0">Cloud & Storage</p>
+                        </div>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-paint-line"></i></span>
+                            <p class="mb-0">Design Tools</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <span class="tool-icon me-3"><i class="ri-hashtag"></i></span>
+                            <p class="mb-0">Social Media</p>
+                        </div>
+                    </div>  
+                    <div class="features-content" id="mobileaccess">
+                        <h2 class="fw-medium text-dark-title mb-3">Powerful<span class="text-primary fw-semibold"> Mobile Access Features </span>for Every Stage of the Customer Journey</h2>
+                        <p class="fs-6">Our Mobile Access brings all your customer data, conversations, and sales activities into one streamlined platform. From capturing leads to closing deals, you’ll have full visibility into your pipeline, automated workflows to save time, and smart insights to help you build stronger relationships.</p>
+                        <p class="fs-6">Whether you're a small team or scaling fast, our CRM adapts to your workflow—so you can focus on growing revenue, not juggling tools.</p>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-smartphone-line"></i></span>
+                            <p class="mb-0">Lead Management and Tracking System</p>
+                        </div>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-computer-line"></i></span>
+                            <p class="mb-0">Mobile Devices</p>
+                        </div>
+                        <div class="d-flex align-items-center mb-12">
+                            <span class="tool-icon me-3"><i class="ri-message-line"></i></span>
+                            <p class="mb-0">Communication</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <span class="tool-icon me-3"><i class="ri-menu-line"></i></span>
+                            <p class="mb-0">Mobile UI Elements</p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials section -->
+    <section class="section bg-gray testi-section">
+        <div class="container position-relative">
+             <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"What Our Clients Say"})
+                    <p class="text-center subtitle">Don’t just take our word for it — see how our CRM & ERP solution has transformed businesses, helping teams achieve greater efficiency and success.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="swiper testiSwiper1">
+                        <div class="swiper-wrapper">
+                            <!-- slide1 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard1.html',{"img":"avatar7.jpg","name":"Rosa E. Hackney","pose":"UI/UX Designer"})
+                            </div>
+
+                            <!-- slide2 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard1.html',{"img":"avatar1.jpg","name":"Isabella Moretti","pose":"UX Designer"})
+                            </div>
+
+                            <!-- slide3 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard1.html',{"img":"avatar2.jpg","name":"Liam Schneider","pose":"Product Manager"})
+                            </div>
+
+                            <!-- slide4 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard1.html',{"img":"avatar3.jpg","name":"Mateo Alvarez","pose":"Project Lead"})
+                            </div>
+
+                            <!-- slide5 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard1.html',{"img":"avatar5.jpg","name":"Priya Sharma","pose":"Product Manager"})
+                            </div>
+
+                            <!-- slide6 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard1.html',{"img":"avatar6.jpg","name":"James Smith","pose":"Project Lead"})
+                            </div>
+
+                            <!-- slide7 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard1.html',{"img":"avatar4.jpg","name":"Omar Khan","pose":"UX Designer"})
+                            </div>
+                        </div>
+                        <div class="swiper-button d-flex justify-content-center align-items-center gap-4 mt-50">
+                            <div class="swiper-btn-prev">
+                                <span>
+                                    <i class="ri-arrow-left-fill"></i>
+                                </span>
+                            </div>
+                            <div class="swiper-btn-next">
+                                <span>
+                                    <i class="ri-arrow-right-fill"></i>
+                                </span>
+                            </div>    
+                        </div>
+                        <div class="bg-avtar-wrap d-lg-block d-none">
+                            <div class="bg-avatar avatar-1">
+                                <img src="../images/avatars/avatar1.jpg" alt="avatar1" class="h-100 w-100 object-fit-cover">
+                            </div>
+                            <div class="bg-avatar avatar-2">
+                                <img src="../images/avatars/avatar2.jpg" alt="avatar2" class="h-100 w-100 object-fit-cover">
+                            </div>
+                            <div class="bg-avatar avatar-3">
+                                <img src="../images/avatars/avatar3.jpg" alt="avatar3" class="h-100 w-100 object-fit-cover">
+                            </div>
+                            <div class="bg-avatar avatar-4">
+                                <img src="../images/avatars/avatar4.jpg" alt="avatar4" class="h-100 w-100 object-fit-cover">
+                            </div>
+                            <div class="bg-avatar avatar-5">
+                                <img src="../images/avatars/avatar5.jpg" alt="avatar5" class="h-100 w-100 object-fit-cover">
+                            </div>
+                            <div class="bg-avatar avatar-6">
+                                <img src="../images/avatars/avatar6.jpg" alt="avatar6" class="h-100 w-100 object-fit-cover">
+                            </div>
+                            <div class="bg-avatar avatar-7">
+                                <img src="../images/avatars/avatar7.jpg" alt="avatar7" class="h-100 w-100 object-fit-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing section -->
+    <section class="section price-section">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Simple, Transparent Pricing"})
+                    <p class="text-center subtitle">Choose a plan that fits your business needs—no hidden fees, no surprises. Scale confidently with features that grow with you.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-5 col-12 mb-lg-0 mb-4">
+                    <div class="card month-card">
+                        <div class="card-body">
+                            <div class="text-center mb-25">
+                                <span class="badge fw-medium">Monthly</span>
+                            </div>
+                             <ul class="ps-0 mb-73 list-unstyled">
+                                <li><span class="text-success me-3 icon"><i class="ri-check-line"></i></span>Up to 5 users</li>
+                                <li><span class="text-success me-3 icon"><i class="ri-check-line"></i></span>CRM basics (contacts, deals, tasks)</li>
+                                <li><span class="text-success me-3 icon"><i class="ri-check-line"></i></span>Sales pipeline management</li>
+                                <li><span class="text-success me-3 icon"><i class="ri-check-line"></i></span>Basic reporting & dashboards</li>
+                                <li><span class="text-success me-3 icon"><i class="ri-check-line"></i></span>Email & calendar integrations</li>
+                                <li><span class="text-success me-3 icon"><i class="ri-check-line"></i></span>Live chat support</li>
+                            </ul>
+                            <button class="btn btn-primary py-12 w-100">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1 col-12">
+                    <div class="card price-card price-card-bg-primary mb-4">
+                        <div class="card-body">
+                            <div class="d-flex flex-sm-nowrap flex-wrap justify-content-between align-items-center gap-4">
+                                <div>
+                                    <h4 class="card-title mb-0">Free</h4>
+                                    <p class="card-text mb-0">For larger teams with advanced needs</p>
+                                </div>
+                                <div class="d-flex align-items-end">
+                                    <h2 class="mb-0 price-text">$00/</h2>
+                                    <p class="mb-0">Month</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card price-card price-card-bg-light mb-4">
+                        <div class="card-body">
+                            <div class="d-flex flex-sm-nowrap flex-wrap justify-content-between align-items-center gap-4">
+                                <div>
+                                    <h4 class="card-title mb-0">Pro Plan</h4>
+                                    <p class="card-text mb-0">For larger teams with advanced needs</p>
+                                </div>
+                                <div class="d-flex align-items-end">
+                                    <h2 class="mb-0 price-text">$29/</h2>
+                                    <p class="mb-0">Month</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card price-card price-card-bg-light">
+                        <div class="card-body">
+                            <div class="d-flex flex-sm-nowrap flex-wrap justify-content-between align-items-center gap-4">
+                                <div>
+                                    <h4 class="card-title mb-0">Business Plan</h4>
+                                    <p class="card-text mb-0">For larger teams with advanced needs</p>
+                                </div>
+                                <div class="d-flex align-items-end">
+                                    <h2 class="mb-0 price-text">$99/</h2>
+                                    <p class="mb-0">Month</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section bg-gray">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Frequently Asked Questions"})
+                    <p class="text-center subtitle">Get quick answers to common questions about our CRM & ERP software — from features and pricing to setup and support.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 col-12 mb-lg-0 mb-5">
+                    <div class="accordion accordion-flush software-acco-faqs" id="accordionFaqs2">
+                        %%include('partials/components/softwareacco.html',{"que":"What support options are available?","target":"flush-collapseOne","id":"accordionFaqs2"})
+                        %%include('partials/components/softwareacco.html',{"que":"Can I customize the platform?","target":"flush-collapseTwo","id":"accordionFaqs2"})
+                        %%include('partials/components/softwareacco.html',{"que":"Is the software cloud-based or on-premise?","target":"flush-collapseThree","id":"accordionFaqs2"})
+                        %%include('partials/components/softwareacco.html',{"que":"How long does it take to get set up?","target":"flush-collapseFour","id":"accordionFaqs2"})
+                        %%include('partials/components/softwareacco.html',{"que":"Can I migrate data from my existing systems?","target":"flush-collapseFive","id":"accordionFaqs2"})
+                    </div> 
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="accordion accordion-flush software-acco-faqs" id="accordionFaqs3">
+                        %%include('partials/components/softwareacco.html',{"que":"Is there a free trial or demo available?","target":"flush-collapseSix","id":"accordionFaqs3"})
+                        %%include('partials/components/softwareacco.html',{"que":"What kind of support do you offer?","target":"flush-collapseSeven","id":"accordionFaqs3"})
+                        %%include('partials/components/softwareacco.html',{"que":"How secure is my data on your platform?","target":"flush-collapseEight","id":"accordionFaqs3"})
+                        %%include('partials/components/softwareacco.html',{"que":"Do you offer mobile access or an app?","target":"flush-collapseNine","id":"accordionFaqs3"})
+                        %%include('partials/components/softwareacco.html',{"que":"How does pricing change as my business grows?","target":"flush-collapseTen","id":"accordionFaqs3"})
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA secation -->
+    <section class="section cta-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="cta-bg position-relative overflow-hidden">
+                        <div class="cta-bg-img ratio ratio-21x9 z-1 position-absolute top-0 left-0 h-100">
+                            <img src="../images/ctabg_img.png" alt="ctabgimg" class="h-100 w-100 object-fit-cover">
+                        </div>
+                        <div class="cta-content m-60 position-relative">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-lg-6 col-12 order-lg-1 order-2">
+                                    <h1 class="cta-title mb-4">Start Streamlining Your Business Today</h1>
+                                    <p class="cta-text mb-32">Simplify your operations with powerful CRM and ERP tools in one platform. Get started in minutes and scale with confidence.</p>
+                                    <div class="d-flex flex-sm-nowrap flex-wrap align-items-center gap-3">
+                                        <button class="btn btn-primary rounded-pill">Get Started</button>
+                                        <button class="btn btn-custom-light rounded-pill">Try It Now</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 offset-lg-1 col-12 order-lg-2 order-1 mb-lg-0 mb-4">
+                                    <img src="../images/software/ctaimg.png" alt="ctaimg" class="img-fluid cta-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    %%include("partials/layout/footer.html")
+
+    
+    %%include("partials/layout/footer-js.html")
+    <script src="plugins/swiper/swiper-bundle.min.js"></script>
+    <script src="js/pages/software.js"></script>
+
+</body>
+
+</html>

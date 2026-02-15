@@ -1,0 +1,63 @@
+// form.scss
+.contact-form {
+    .form-control,
+    .dropdown-toggle {
+        border-radius: $border-radius-pill;
+        background-color: rgba($primary, 0.03);
+        border: 1px solid rgba($primary, 0.03);
+
+        &:focus,
+        &:focus-visible {
+            border: 1px solid var(--img-border);
+            box-shadow: none;
+        }
+    }
+
+    .form-control {
+        padding: .75rem 1rem;
+    }
+
+    .dropdown-center {
+        .dropdown-toggle {
+            padding: 12px 20px;
+            text-align: start;
+            color: var(--bs-text-muted);
+        }
+
+        .dropdown-menu {
+            padding: 16px 8px;
+            border: 1px solid var(--bs-hero-badge-border);
+
+            .dropdown-item {
+                transition: all 0.1s linear;
+                color: var(--bs-navlink-color);
+
+                &:hover {
+                    background-color: var(--drop-item-bg);
+                    color: var(--bs-hero-badge-color);
+                    border-radius: $border-radius-pill;
+                }
+            }
+        }
+    }
+
+    .form-check{
+        .form-check-input{
+            box-shadow:none;
+            background-color: transparent;
+            border-color:var(--bs-features-card-border-color);
+            &:checked{
+                background-color: $primary;
+                border-color: $primary;
+            }
+        }
+    }
+}
+
+[data-bs-theme="dark"] {
+    .form-control,
+    .dropdown-toggle {
+        background-color: rgba($white, 0.05);
+        border: 1px solid  rgba($white, 0.05);
+    }
+}

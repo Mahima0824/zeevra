@@ -1,0 +1,64 @@
+
+[data-bs-theme="light"] {
+    --bs-nav-bg-color:#{$white};
+    --bs-navlink-color:#{$gray-900};
+    --bs-text-muted: #{$gray-700};
+    --bs-hero-badge-bg:#{rgba($primary, 0.12)};
+    --bs-hero-badge-border:#{rgba($primary,0.3)};
+    --bs-hero-badge-color:#{$primary};
+    --bs-hero-btn-hover-color:#{$gray-100};
+    --bs-bg-section-color:#{$gray-200};
+    --bs-title-underline-color:#{red($gray-900)}, #{green($gray-900)}, #{blue($gray-900)};
+    --bs-features-card-color-light:#{$white};
+    --bs-features-card-color-gray:#{$gray-200};
+    --bs-features-card-border-color:#{$gray-300};
+    --bs-video-border-color:#{$primary};
+    --bs-quotes-color:#{rgba($gray-900, 0.1)};
+    --bs-quotes2-color:#{rgba($gray-900, 0.06)};
+    --bs-swiper-bg-card:#{rgba($gray-900, 0.04)};
+    --bs-border-ring-color:#{$white};
+    --bs-swiper-disable-color:#{rgba($gray-900, 0.25)};
+    --bs-price-card-bg-color:#{rgba($primary, 0.06)};
+    --bs-price-card-text-color:#{rgba($gray-700,0.8)};
+    --bs-btn-get-start-bg-color:#{rgba($gray-700, 0.12)};
+    --bs-btn-get-start-border-color:#{rgba($gray-700, 0.3)}; 
+    --bs-cta-border:#{$gray-900};
+    --bs-nav-tabs:#{rgba($primary, 0.08)};
+    --bs-footer-bg:#{$gray-950};
+    --img-border:#{rgba($primary, 0.35)};
+    --bs-card-icon:#{$primary};
+    --social-icon:#{rgba($gray-700, 0.75)};
+    --drop-item-bg:#{rgba($primary, 0.1)};
+}
+
+[data-bs-theme="dark"] {
+    --bs-nav-bg-color:#{$primary};
+    --bs-navlink-color:#{$white};
+    --bs-text-muted: #{$gray-500};
+    --bs-hero-badge-bg:#{rgba($gray-100, 0.12)};
+    --bs-hero-badge-border:#{rgba($gray-100,0.3)};
+    --bs-hero-badge-color:#{$gray-100};
+    --bs-hero-btn-hover-color:#{$gray-900};
+    --bs-bg-section-color:#{$gray-800};
+    --bs-title-underline-color:#{red($gray-100)}, #{green($gray-100)}, #{blue($gray-100)};
+    --bs-features-card-color-light:#{rgba($white, 0.12)};
+    --bs-features-card-color-gray:#{rgba($white, 0.2)};
+    --bs-features-card-border-color:#{rgba($white,0.24)};
+    --bs-video-border-color:#{$gray-700};
+    --bs-quotes-color:#{rgba($gray-100, 0.15)};
+    --bs-quotes2-color:#{rgba($gray-200, 0.06)};
+    --bs-swiper-bg-card:#{rgba($gray-100, 0.04)};
+    --bs-border-ring-color:#{$gray-900};
+    --bs-swiper-disable-color:#{rgba($gray-100, 0.25)};
+    --bs-price-card-bg-color:#{rgba($white, 0.2)};
+    --bs-price-card-text-color:#{rgba($gray-500,0.8)};
+    --bs-btn-get-start-bg-color:#{rgba($gray-100, 0.12)};
+    --bs-btn-get-start-border-color:#{rgba($gray-100, 0.3)};
+    --bs-cta-border:#{rgba($gray-100,0.5)};
+    --bs-nav-tabs:#{rgba($gray-100, 0.08)};
+    --bs-footer-bg:#{rgba($gray-100,0.2)};
+    --img-border:#{rgba($gray-300, 0.35)};
+    --bs-card-icon:#{$gray-400};
+    --social-icon:#{rgba($gray-100, 0.75)};
+    --drop-item-bg:#{rgba($white, 0.1)};
+}

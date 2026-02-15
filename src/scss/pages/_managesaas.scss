@@ -1,0 +1,81 @@
+// managesaas.scss
+
+.managesaas-hero-content {
+    z-index: 2;
+
+    .hero-title {
+        @media (min-width: 576px) { 
+            font-size: 50px;
+            line-height: 3.75rem;
+        }
+        color: var(--bs-navlink-color);
+        font-weight: $font-weight-semibold;
+        margin-bottom: 1.25rem;
+        filter: drop-shadow(0px 4px 4px rgba($gray-900, 0.2));
+    }
+    
+
+    .subtitle {
+        line-height: 30px;
+        margin-bottom: 2.625rem;
+    }
+
+    .img-wrap {
+        position: relative;
+        overflow: hidden;
+
+        .blur-effe {
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(180deg, rgba($white, 0.7) 0%, rgba($white, 0.98) 30%, $white 100%);
+
+            @media (min-width: 768px) and (max-width: 1199.98px) {
+                height: 150px;
+            }
+
+            @media (min-width: 1200px) {
+                height: 291px;
+            }
+
+        }
+
+        .dashbord-img {
+            box-shadow: 0px 0px 0px 0px rgba($black, 0.1);
+            border-radius: 1rem;
+            border: 1px solid $gray-500;
+        }
+    }
+}
+
+.faq-title {
+    color: var(--bs-navlink-color);
+}
+
+.cta-img-wrap {
+    position: relative;
+    border: 1px solid var(--bs-cta-border);
+    box-shadow: 0px 6px 15px 0px rgba($gray-900, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+
+    .overlay {
+        position: absolute;
+        inset: 0;
+        background: rgba($gray-900, 0.75);
+    }
+
+    .content {
+        .cta-title {
+            @media (min-width: 992px) {
+                font-size: 52px;
+                line-height: 70px;
+            }
+
+            color: $white;
+        }
+    }
+
+}

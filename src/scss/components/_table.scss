@@ -1,0 +1,61 @@
+// table.scss
+
+.table {
+    thead {
+        tr {
+            th {
+                background-color: var(--drop-item-bg);
+                color: var(--bs-navlink-color);
+            }
+        }
+    }
+
+    tbody {
+        tr {
+            td {
+                color: var(--bs-text-muted);
+
+                &:nth-child(1) {
+                    text-align: start;
+                    padding:16px 12px 16px 16px;
+                }
+
+                &:nth-child(2) {
+                    background-color: rgba($primary, 0.01);
+                }
+
+                &:nth-child(3) {
+                    background-color: rgba($primary, 0.03);
+                }
+
+                &:nth-child(4) {
+                    background-color: rgba($primary, 0.05);
+                }
+            }
+
+        }
+
+    }
+}
+
+[data-bs-theme="dark"] {
+    .table {
+        tbody {
+            tr {
+                td {
+                    &:nth-child(2) {
+                        background-color: rgba($gray-100, 0.01);
+                    }
+
+                    &:nth-child(3) {
+                        background-color: rgba($gray-100, 0.03);
+                    }
+
+                    &:nth-child(4) {
+                        background-color: rgba($gray-100, 0.05);
+                    }
+                }
+            }
+        }
+    }
+}

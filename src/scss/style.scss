@@ -1,0 +1,86 @@
+@use "sass:math";
+@import "../../node_modules/bootstrap/scss/mixins/banner";
+@include bsBanner("");
+
+
+// scss-docs-start import-stack
+// Configuration
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../scss/variables";
+@import "../scss/custom-variables";
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/utilities";
+
+// Layout & components
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/tables";
+@import "../../node_modules/bootstrap/scss/forms";
+@import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/transitions";
+@import "../../node_modules/bootstrap/scss/dropdown";
+@import "../../node_modules/bootstrap/scss/button-group";
+@import "../../node_modules/bootstrap/scss/nav";
+@import "../../node_modules/bootstrap/scss/navbar";
+@import "../../node_modules/bootstrap/scss/card";
+@import "../../node_modules/bootstrap/scss/accordion";
+@import "../../node_modules/bootstrap/scss/breadcrumb";
+@import "../../node_modules/bootstrap/scss/pagination";
+@import "../../node_modules/bootstrap/scss/badge";
+@import "../../node_modules/bootstrap/scss/alert";
+@import "../../node_modules/bootstrap/scss/progress";
+@import "../../node_modules/bootstrap/scss/list-group";
+@import "../../node_modules/bootstrap/scss/close";
+@import "../../node_modules/bootstrap/scss/toasts";
+@import "../../node_modules/bootstrap/scss/modal";
+@import "../../node_modules/bootstrap/scss/tooltip";
+@import "../../node_modules/bootstrap/scss/popover";
+@import "../../node_modules/bootstrap/scss/carousel";
+@import "../../node_modules/bootstrap/scss/spinners";
+@import "../../node_modules/bootstrap/scss/offcanvas";
+@import "../../node_modules/bootstrap/scss/placeholders";
+
+// Helpers
+@import "../../node_modules/bootstrap/scss/helpers";
+
+// Utilities
+@import "../../node_modules/bootstrap/scss/utilities/api";
+// scss-docs-end import-stack
+
+// layout
+@import "../scss/layout/navbar";
+@import "../scss/layout/footer";
+
+// components
+@import "../scss/components/helper";
+@import "../scss/components/button";
+@import "../scss/components/badge";
+@import "../scss/components/card";
+@import "../scss/components/accordian";
+@import "../scss/components/form";
+@import "../scss/components/nav-tab";
+@import "../scss/components/table";
+
+// pages
+@import"../scss/pages/managesaas";
+@import"../scss/pages/software";
+@import"../scss/pages/aichatboat";
+@import"../scss/pages/finance";
+@import"../scss/pages/marketing";
+@import"../scss/pages/cloud";
+@import"../scss/pages/features";
+@import"../scss/pages/careers";
+@import "../scss/pages/team";
+@import"../scss/pages/blog";
+@import"../scss/pages/contact";
+@import"../scss/pages/auth";
+
+
+// plugin
+@import "../scss/plugin/swiper";
+// @import "../scss/plugin/masonry";

@@ -1,0 +1,43 @@
+// marketing.scss
+.marketing-hero {
+    .hero-title {
+        @media (min-width: 576px) {
+            font-size: 50px;
+            line-height: 3.875rem;
+        }
+
+        color: var(--bs-navlink-color);
+        font-weight: $font-weight-semibold;
+        margin-bottom: 1rem;
+        filter: drop-shadow(0px 4px 4px rgba($gray-900, 0.2));
+    }
+
+}
+
+.brainai-img {
+    border-radius: 24px;
+    box-shadow: 0px 6px 15px 0px rgba($dark, 0.3);
+}
+
+.faqs-img,
+.cta-img {
+    filter: drop-shadow(5px 12px 3px rgba($gray-900, 0.16));
+}
+
+.cta-sec {
+    @media (min-width: 768px) {
+        .cta-title {
+            @media (min-width: 576px) {
+                font-size: 46px;
+            }
+
+            filter: drop-shadow(0px 5px 5px rgba($gray-900, 0.2));
+        }
+
+        .cta-text {
+            font-size: 20px;
+            margin-bottom: 26px;
+        }
+    }
+
+}

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    %%include('partials/layout/meta.html')
+    %%include('partials/layout/css.html')
+</head>
+
+<body>
+    <!-- navbar -->
+    %%include('partials/layout/navbar.html')
+
+    <!-- Hero section -->
+    <section class="hero-section marketing-hero-bgimg marketing-hero">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 mb-100">
+                    <div class="d-flex justify-content-center align-items-center mb-50">
+                        <img src="../images/marketing/marketing.png" alt="marketing-analytics-img" class="img-fluid">
+                    </div>
+                    <div class="text-center">
+                        <h1 class="hero-title mb-3">Transform Your<span class="text-primary">
+                                Marketing </span>with<span class="text-primary"> Real-Time </span>, <br><span
+                                class="text-primary"> Data-Driven </span>Insights</h1>
+                        <p class="mb-4">Supercharge your campaigns with powerful analytics that help you track
+                            performance, understand audience behavior, and make smarter decisions. From traffic sources
+                            to ROI, get complete visibility across every channel—all in one intuitive dashboard.</p>
+                        <button class="btn btn-primary rounded-pill">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="section bg-gray">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Our Benefits"})
+                    <p class="text-center subtitle">Gain clear, actionable insights to improve campaign performance and
+                        drive smarter marketing decisions.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- <div class="col-12">
+                    <div class="benefit-masonry masonry-grid">
+                        <div class="masonry-item medium">
+                            <div class="card benefits-card3 mb-4">
+                                <div class="card-img overflow-hidden rounded-0">
+                                    <img src="../images/marketing/benefit/img1.jpg" alt="marketing-performance"
+                                        class="card-img-top img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="text-dark-title mb-12">360° View of Marketing Performance</h5>
+                                    <p class="fs-6 mb-4">Get a complete, real-time overview of all your marketing
+                                        channels
+                                        in one place to measure, analyze, and optimize performance effortlessly.</p>
+                                    <div class="d-flex justify-content-end align-item-center">
+                                        <a href="#" class="arrow fs-4"><span class="lh-1"><i
+                                                    class="ri-arrow-right-up-long-fill"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="masonry-item small">
+                            <div class="card benefits-card3">
+                                <div class="card-body">
+                                    <h5 class="text-dark-title mb-12">Cross-Channel Attribution</h5>
+                                    <p class="fs-6 mb-4">Understand how each channel contributes to conversions with
+                                        accurate
+                                        attribution across the entire customer journey. Understand how each channel
+                                        contributes
+                                        to</p>
+                                    <div class="d-flex justify-content-end align-item-center">
+                                        <a href="#" class="arrow fs-4"><span class="lh-1"><i
+                                                    class="ri-arrow-right-up-long-fill"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="masonry-item large">
+                            <div class="card benefits-card3">
+                                <div class="card-img overflow-hidden rounded-0">
+                                    <img src="../images/marketing/benefit/img3.jpg"
+                                        alt="Audience Insights & Segmentation" class="card-img-top img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="text-dark-title mb-12">Audience Insights & Segmentation</h5>
+                                    <p class="fs-6 mb-2">Understand who your audience truly is with deep demographic,
+                                        behavioral, & engagement data.</p>
+                                    <p class="fs-6 mb-2">Segment customers based on interests, actions, & buying
+                                        patterns
+                                        for more personalized marketing.</p>
+                                    <p class="fs-6 mb-4">Identify high-value segments to focus your campaigns and
+                                        improve
+                                        ROI. Track how different audience groups respond to your messaging in real time.
+                                        Make data-driven decisions that boost engagement</p>
+                                    <div class="d-flex justify-content-end align-item-center">
+                                        <a href="#" class="arrow fs-4"><span class="lh-1"><i
+                                                    class="ri-arrow-right-up-long-fill"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="masonry-item medium">
+                            <div class="card benefits-card3">
+                                <div class="card-img overflow-hidden rounded-0">
+                                    <img src="../images/marketing/benefit/img2.jpg" alt="automated-reporting"
+                                        class="card-img-top img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="text-dark-title mb-12">Automated Reporting</h5>
+                                    <p class="fs-6 mb-4">Save time with customizable reports delivered automatically,
+                                        giving
+                                        you
+                                        clear insights without the manual work.</p>
+                                    <div class="d-flex justify-content-end align-item-center">
+                                        <a href="#" class="arrow fs-4"><span class="lh-1"><i
+                                                    class="ri-arrow-right-up-long-fill"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="masonry-item small">
+                            <div class="card benefits-card3">
+                                <div class="card-body">
+                                    <h5 class="text-dark-title mb-12">Real-Time ROI Tracking</h5>
+                                    <p class="fs-6 mb-4">Monitor the return on every marketing dollar as it happens, so
+                                        you
+                                        can adjust strategies instantly and maximize impact.</p>
+                                    <div class="d-flex justify-content-end align-item-center">
+                                        <a href="#" class="arrow fs-4"><span class="lh-1"><i
+                                                    class="ri-arrow-right-up-long-fill"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div> -->
+                <div class="col-xl-4 col-md-6 col-12 mb-xl-0 mb-4">
+                    <div class="card benefits-card3 mb-4 ">
+                        <div class="card-img overflow-hidden rounded-0">
+                            <img src="../images/marketing/benefitimgs/img1.jpg" alt="marketing-performance"
+                                class="card-img-top img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="text-dark-title mb-12">360° View of Marketing Performance</h5>
+                            <p class="fs-6 mb-4">Get a complete, real-time overview of all your marketing channels
+                                in one place to measure, analyze, and optimize performance effortlessly.</p>
+                            <div class="d-flex justify-content-end align-item-center">
+                                <a href="#" class="arrow fs-4"><span class="lh-1"><i
+                                            class="ri-arrow-right-up-long-fill"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card benefits-card3">
+                        <div class="card-body">
+                            <h5 class="text-dark-title mb-12">Real-Time ROI Tracking</h5>
+                            <p class="fs-6 mb-4">Monitor the return on every marketing dollar as it happens, so you
+                                can adjust strategies instantly and maximize impact.</p>
+                            <div class="d-flex justify-content-end align-item-center">
+                                <a href="#" class="arrow fs-4"><span class="lh-1"><i
+                                            class="ri-arrow-right-up-long-fill"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-xl-0 mb-4">
+                    <div class="card benefits-card3 mb-4">
+                        <div class="card-body">
+                            <h5 class="text-dark-title mb-12">Cross-Channel Attribution</h5>
+                            <p class="fs-6 mb-4">Understand how each channel contributes to conversions with
+                                accurate
+                                attribution across the entire customer journey. Understand how each channel
+                                contributes
+                                to</p>
+                            <div class="d-flex justify-content-end align-item-center">
+                                <a href="#" class="arrow fs-4"><span class="lh-1"><i
+                                            class="ri-arrow-right-up-long-fill"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card benefits-card3">
+                        <div class="card-img overflow-hidden rounded-0">
+                            <img src="../images/marketing/benefitimgs/img2.jpg" alt="automated-reporting"
+                                class="card-img-top img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="text-dark-title mb-12">Automated Reporting</h5>
+                            <p class="fs-6 mb-4">Save time with customizable reports delivered automatically, giving
+                                you
+                                clear insights without the manual work.</p>
+                            <div class="d-flex justify-content-end align-item-center">
+                                <a href="#" class="arrow fs-4"><span class="lh-1"><i
+                                            class="ri-arrow-right-up-long-fill"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div class="card benefits-card3">
+                        <div class="card-img overflow-hidden rounded-0">
+                            <img src="../images/marketing/benefitimgs/img3.jpg" alt="Audience Insights & Segmentation"
+                                class="card-img-top img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="text-dark-title mb-12">Audience Insights & Segmentation</h5>
+                            <p class="fs-6 mb-2">Understand who your audience truly is with deep demographic,
+                                behavioral, & engagement data.</p>
+                            <p class="fs-6 mb-2">Segment customers based on interests, actions, & buying patterns for
+                                more personalized marketing.</p>
+                            <p class="fs-6 mb-4">Identify high-value segments to focus your campaigns and improve ROI.
+                                Track how different audience groups respond to your messaging in real time. Make
+                                data-driven decisions that boost engagement</p>
+                            <div class="d-flex justify-content-end align-item-center">
+                                <a href="#" class="arrow fs-4"><span class="lh-1"><i
+                                            class="ri-arrow-right-up-long-fill"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why choose -->
+    <section class="section">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Why Choose Us?"})
+                    <p class="text-center subtitle">Analyze customer data in real time to uncover trends, segment audiences by behavior or interest, and deliver campaigns that truly resonate.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-md-6 col-12 mb-4">
+                    %%include('partials/components/choosecard.html',{"card-bg":"choose-card-bg-gray","img":"campaign.png","title":"Campaign Analytics","description":"Track campaign performance in real time and optimize for better results. Make data-driven decisions to boost ROI."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-4">
+                    %%include('partials/components/choosecard.html',{"card-bg":"choose-card-bg-light","img":"modeling.png","title":"Attribution Modeling","description":"Understand the impact of each marketing touchpoint on conversions & optimize your strategy with accurate attribution across all channels."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-4">
+                    %%include('partials/components/choosecard.html',{"card-bg":"choose-card-bg-gray","img":"dashborad1.png","title":"Custom Dashboards","description":"Create personalized dashboards to track the metrics that matter most to your business, all in one easy-to-view interface."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-xl-0 mb-4">
+                    %%include('partials/components/choosecard.html',{"card-bg":"choose-card-bg-light","img":"report.png","title":"Automated Reports","description":"Generate and receive customized reports automatically, saving you time while providing valuable insights for informed decision-making."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-md-0 mb-4">
+                    %%include('partials/components/choosecard.html',{"card-bg":"choose-card-bg-gray","img":"integrations.png","title":"Integrations","description":"Connect seamlessly with your favorite marketing tools & platforms to centralize data, streamline workflows, & enhance performance tracking."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12">
+                    %%include('partials/components/choosecard.html',{"card-bg":"choose-card-bg-light","img":"predictive.png","title":"Predictive Analytics","description":"Leverage historical data and AI-driven insights to forecast future trends, optimize campaigns, and make smarter marketing decisions."})
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section bg-gray">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"How it Work?"})
+                    <p class="text-center subtitle">See how our platform collects, analyzes, and visualizes your marketing data to help you make smarter, faster decisions.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-xl-6 col-12 mb-xl-0 mb-4">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="../images/marketing/brainai.jpg" alt="brain-ai" class="img-fluid brainai-img">
+                    </div>
+                </div>
+                <div class="col-xl-5 offset-xl-1 col-12">
+                    <h3 class="text-dark-title mb-2">Smart Insights in Three Simple Steps</h3>
+                    <p class="fs-6 mb-4">Connect your tools, track your campaigns, & get instant analytics—all in one place. Our platform makes it easy to understand performance and take action with confidence.</p>
+                    <div class="mb-3">
+                        <div class="d-flex align-item-center mb-2">
+                            <span class="me-2"><i class="ri-links-line"></i></span>
+                            <h5 class="text-dark-title mb-0">Connect Your Channels</h5>
+                        </div>
+                        <div class="ms-30">
+                            <small class="fs-15">Easily integrate all your marketing platforms—like Google Ads, Facebook, Instagram, LinkedIn, and more—so you can track performance across every campaign in one place.</small>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="d-flex align-item-center mb-2">
+                            <span class="me-2"><i class="ri-bar-chart-fill"></i></span>
+                            <h5 class="text-dark-title mb-0">Track Real-Time Data</h5>
+                        </div>
+                        <div class="ms-30">
+                            <small class="fs-15">Get instant access to live data on website traffic, user behavior, conversions, and campaign metrics—all updated in real-time for faster decision-making.</small>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="d-flex align-item-center mb-2">
+                            <span class="me-2"><i class="ri-brain-2-fill"></i></span>
+                            <h5 class="text-dark-title mb-0">Analyze Key Metrics</h5>
+                        </div>
+                        <div class="ms-30">
+                            <small class="fs-15">Use powerful visual dashboards and smart filters to uncover trends, measure ROI, and understand what’s driving results across different channels.</small>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex align-item-center mb-2">
+                            <span class="me-2"><i class="ri-rocket-line"></i></span>
+                            <h5 class="text-dark-title mb-0">Optimize for Growth</h5>
+                        </div>
+                        <div class="ms-30">
+                            <small class="fs-15">Leverage insights to refine your strategies, allocate budgets effectively, and continuously improve campaign performance to scale your marketing impact.</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who It's For -->
+    <section class="section">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Who We Serve"})
+                    <p class="text-center subtitle">Designed for marketers, teams, and organizations focused on optimizing campaigns & making smarter, insight-led decisions.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-sm-6 col-12 mb-4">
+                    %%include('partials/components/servicecard.html',{"icon-color":"card-icon-soft-primary","icon":"ri-bar-chart-2-line","title":"Marketing Managers"})
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 mb-4">
+                    %%include('partials/components/servicecard.html',{"icon-color":"card-icon-soft-success","icon":"ri-group-line","title":"Digital Agencies"})
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 mb-4">
+                    %%include('partials/components/servicecard.html',{"icon-color":"card-icon-soft-warning","icon":"ri-pie-chart-line","title":"CMOs & Analysts"})
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 mb-lg-0 mb-4">
+                    %%include('partials/components/servicecard.html',{"icon-color":"card-icon-soft-danger","icon":"ri-rocket-2-line","title":"Growth Teams"})
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    %%include('partials/components/servicecard.html',{"icon-color":"card-icon-soft-info","icon":"ri-shopping-bag-line","title":"E-commerce Brands"})
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="section bg-gray">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Our Testimonials"})
+                    <p class="text-center subtitle">See how our tool is helping marketers, teams, and businesses unlock powerful insights and drive better results.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12">
+                     <div class="swiper testiSwiper">
+                        <div class="swiper-wrapper pt-0">
+                            <!-- slide1 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard4.html',
+                                {"img":"avatar1.jpg",
+                                "description":"This tool completely transformed how we manage and measure our marketing performance. The dashboards are clean, fast, and surprisingly insightful.",
+                                "name":"Sarah Mitchell",
+                                "pose":"Marketing Manager at NovaReach"})
+                            </div>
+                            <!-- slide2 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard4.html',
+                                {"img":"avatar8.jpg",
+                                "description":"We’ve tried multiple analytics platforms, but none delivered actionable insights like this one. Our campaigns are finally optimized with real data.",
+                                "name":"Daniel Cruz",
+                                "pose":"Digital Strategist at MetricHive Agency"})
+                            </div>
+                            <!-- slide3 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard4.html',
+                                {"img":"avatar2.jpg",
+                                "description":"The real-time tracking and ease of use make it a must-have for any e-commerce brand. Our ROI has improved noticeably since we started using it.",
+                                "name":"Priya Desai",
+                                "pose":"Head of Growth at Trendora"})
+                            </div>
+                            <!-- slide4 -->
+                            <div class="swiper-slide">
+                                %%include('partials/components/testicard4.html',
+                                {"img":"avatar4.jpg",
+                                "description":"This tool completely transformed how we manage and measure our marketing performance. The dashboards are clean, fast, and surprisingly insightful.",
+                                "name":"Sarah Mitchell",
+                                "pose":"Marketing Manager at NovaReach"})
+                            </div>
+                        </div>
+                        <div class="swiper-button d-flex justify-content-center align-items-center gap-4 mt-48">
+                            <div class="swiper-btn-prev">
+                                <span>
+                                    <i class="ri-arrow-left-fill"></i>
+                                </span>
+                            </div>
+                            <div class="swiper-btn-next">
+                                <span>
+                                    <i class="ri-arrow-right-fill"></i>
+                                </span>
+                            </div>    
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Our Pricing"})
+                    <p class="text-center subtitle">Whether you're just starting out or leading a large team, we have flexible pricing to meet your needs—without the hidden fees.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-md-6 col-12 mb-xl-0 mb-4">
+                    <div class="card price-card2 price-card-bg-light h-100">
+                        <div class="card-body text-center">
+                            <h4 class="text-dark-title mb-3">Starter Plan</h4>
+                            <div class="d-flex justify-content-center align-items-end">
+                                <h2 class="mb-0 price-text fw-semibold">$29/</h2>
+                                <p class="mb-0">Month</p>
+                            </div>
+                            <hr class="my-4">
+                            <ul class="features-list ps-0 mb-0">
+                                <li class="mb-18"><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Track up to 3 marketing channels</li>
+                                <li class="mb-18"><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Email support</li>
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>5 custom KPIs</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-transparent pb-4 pt-0 border-0">
+                            <button class="btn btn-get-start w-100 py-12">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-xl-0 mb-4">
+                    <div class="card price-card2 price-card-bg-primary h-100">
+                        <div class="card-body text-center">
+                            <h4 class="mb-3">Pro Plan</h4>
+                            <div class="d-flex justify-content-center align-items-end">
+                                <h2 class="mb-0 price-text fw-semibold">$79/</h2>
+                                <p class="mb-0">Month</p>
+                            </div>
+                            <hr class="my-4">
+                            <ul class="features-list ps-0 mb-0">
+                                <li class="mb-18"><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Track up to 10 marketing channels</li>
+                                <li class="mb-18"><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Priority email and chat support</li>
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>15 custom KPIs</li>
+                            </ul>
+                        </div>
+                         <div class="card-footer bg-transparent pb-4 pt-0 border-0">
+                            <button class="btn btn-light w-100 py-12 shadow-none">Get Started</button>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div class="card price-card2 price-card-bg-light h-100">
+                        <div class="card-body text-center">
+                            <h4 class="text-dark-title mb-3">Business Plan</h4>
+                            <div class="d-flex justify-content-center align-items-end">
+                                <h2 class="mb-0 price-text fw-semibold">$99/</h2>
+                                <p class="mb-0">Month</p>
+                            </div>
+                            <hr class="my-4">
+                            <ul class="features-list ps-0 mb-0">
+                                <li class="mb-18"><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Onboarding & training support</li>
+                                <li class="mb-18"><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Unlimited channels and KPIs</li>
+                                <li><span class="text-success me-12"><i class="ri-checkbox-circle-line"></i></span>Full API Access</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-transparent pb-4 pt-0 border-0">
+                            <button class="btn btn-get-start w-100 py-12">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section bg-gray">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Frequently Asked Questions"})
+                    <p class="text-center subtitle">Have questions? We’ve got answers. Browse through the most common queries to understand how our platform works and how it can help your business.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center mb-48">
+                <div class="col-lg-7 col-12 order-lg-1 order-2">
+                    <div class="accordion accordion-flush marketing-acco-feq pe-xl-1" id="accordionMarketingFaq1">
+                        <div class="accordion-item mb-4">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button no-toggle fs-22 p-0 ps-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+                                    1.Can I import historical data?
+                                </button>
+                            </h2>
+                            <div id="flush-collapse1" class="accordion-collapse show" data-bs-parent="#accordionMarketingFaq1">
+                                <div class="accordion-body ms-10 fs-6 pt-1">Yes, you can import historical data to analyze past performance and create complete reports from day one.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-4">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button no-toggle fs-22 p-0 ps-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+                                    2.How many integrations are supported?
+                                </button>
+                            </h2>
+                            <div id="flush-collapse2" class="accordion-collapse show" data-bs-parent="#accordionMarketingFaq1">
+                                <div class="accordion-body ms-10 fs-6 pt-1">We support 50+ popular marketing platforms, including Google Ads, Facebook, HubSpot, Mailchimp, and more—with new integrations added regularly.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-4">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button no-toggle fs-22 p-0 ps-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                                    3.Is there a learning curve?
+                                </button>
+                            </h2>
+                            <div id="flush-collapse3" class="accordion-collapse show" data-bs-parent="#accordionMarketingFaq1">
+                                <div class="accordion-body ms-10 fs-6 pt-1">Not at all—our tool is designed to be intuitive and user-friendly, with helpful guides and onboarding support to get you started quickly.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-4">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button no-toggle fs-22 p-0 ps-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                                    4.Do you offer white-label options?
+                                </button>
+                            </h2>
+                            <div id="flush-collapse3" class="accordion-collapse show" data-bs-parent="#accordionMarketingFaq1">
+                                <div class="accordion-body ms-10 fs-6 pt-1">Yes, white-label solutions are available on our Enterprise plan, allowing you to customize branding and present reports under your own name.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-bottom-0 mb-4">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button no-toggle fs-22 p-0 ps-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                                    5.Is there a learning curve?
+                                </button>
+                            </h2>
+                            <div id="flush-collapse3" class="accordion-collapse show" data-bs-parent="#accordionMarketingFaq1">
+                                <div class="accordion-body ms-10 fs-6 pt-1">Not at all—our tool is designed to be intuitive and user-friendly, with helpful guides and onboarding support to get you started quickly.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1 col-md-8 col-10 order-lg-2 order-1 mb-lg-0 mb-4">
+                    <img src="../images/marketing/faqsimg.png" alt="faqs-question-img" class="img-fluid faqs-img">
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12">
+                    <div class="text-center">
+                        <h4 class="text-dark-title mb-2">Got Questions? We’ve Got Answers</h4>
+                        <p class="mb-4">Explore our FAQs to learn how our tool can transform your marketing strategy, track performance, and drive results.</p>
+                        <button class="btn btn-primary rounded-pill">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-sec">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-5 col-sm-10 col-12 mb-lg-0 mb-4">
+                    <img src="../images/marketing/ctaimg.png" alt="ctaimg" class="img-fluid cta-img">
+                </div>
+                <div class="col-lg-6 offset-lg-1 col-12">
+                    <div class="text-lg-start text-center">
+                        <h1 class="fw-semibold cta-title text-dark-title mb-3">Start Making Smarter Marketing Decisions Today</h1>
+                        <p class="cta-text">Whether you're deploying your first app or managing enterprise-level storage, our cloud platform gives you the tools to build, scale, and secure your projects with ease. Get started today and experience performance without compromise.</p>
+                        <div class="d-flex justify-content-lg-start justify-content-center align-items-center gap-3">
+                            <button class="btn btn-primary rounded-pill">Get Started</button>
+                            <button class="btn btn-outline-dark btn-dark-outline rounded-pill">Try It Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    %%include("partials/layout/footer.html")
+
+    
+    %%include("partials/layout/footer-js.html")
+    <script src="plugins/swiper/swiper-bundle.min.js"></script>
+    <script src="js/pages/home.js"></script>
+
+</body>
+
+</html>

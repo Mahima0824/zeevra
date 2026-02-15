@@ -1,0 +1,106 @@
+// software.scss
+.software-hero {
+    position: relative;
+
+    .software-hero-content {
+        z-index: 2;
+
+        .hero-title {
+            color: var(--bs-navlink-color);
+            line-height: 64px;
+            filter: drop-shadow(0px 4px 4px rgba($gray-900, 0.2));
+
+            @media (min-width: 1200px) {
+                font-size: 46px;
+                margin-bottom: 60px;
+            }
+
+            @media (min-width: 0px) and (max-width: 1199.98px) {
+                font-size: 40px;
+                margin-bottom: 24px;
+            }
+        }
+
+        .num-count {
+            color: var(--bs-navlink-color);
+            font-size: 38px;
+            font-weight: $font-weight-semibold;
+        }
+
+    }
+
+    .hero-video {
+        @media (min-width: 1200px) {
+            margin-top: 100px;
+        }
+
+        @media (min-width: 0px) and (max-width: 1199.98px) {
+            margin-top: 60px;
+        }
+
+        .overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba($gray-900, 0.4);
+        }
+
+        .play-btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 100px;
+            width: 100px;
+            background: var(--bs-nav-bg-color);
+            border: 1px solid $primary;
+            border-radius: $border-radius-2xl;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 0px 0px 25px rgba($white, 0.14),
+                0px 0px 0px 50px rgba($white, 0.12),
+                0px 0px 0px 75px rgba($white, 0.1),
+                0px 0px 0px 100px rgba($white, 0.08);
+
+            span {
+                transform: rotate(90deg);
+
+                i {
+                    font-size: 40px;
+                    color: var(--bs-hero-badge-color);
+                }
+
+            }
+        }
+    }
+}
+
+.features-section {
+    .features-content {
+        .tool-icon {
+            width: 46px;
+            height: 46px;
+            aspect-ratio: 1 / 1;
+            border: 1px solid var(--bs-features-card-border-color);
+            background-color: var(--bs-features-card-color-gray);
+            border-radius: $border-radius-2xl;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            i {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.price-section {
+    .badge {
+        font-size: 22px;
+        background: var(--bs-price-card-bg-color);
+        color: var(--bs-hero-badge-color);
+        border: 1px solid var(--bs-video-border-color);
+        padding: 10px 24px;
+    }
+}

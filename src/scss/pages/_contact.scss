@@ -1,0 +1,24 @@
+// contact.scss
+.contact-sec {
+    .btn {
+        span {
+            i {
+                display: inline-block;
+                transition: $transition-base;
+            }
+        }
+
+        &:hover {
+            span {
+                i {
+                    transform: rotate(45deg);
+                }
+            }
+        }
+    }
+
+    .contact-img {
+        filter: drop-shadow(5px 12px 3px rgba($gray-900, 0.16));
+    }
+
+}

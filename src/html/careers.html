@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    %%include('partials/layout/meta.html')
+    %%include('partials/layout/css.html')
+</head>
+
+<body class="bg-gray">
+    <!-- navbar -->
+    %%include('partials/layout/navbar.html')
+
+    <!-- Hero Section -->
+    <section class="hero-secondary-section careers-hero-bgimg careers-hero">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-4 col-8 mb-4">
+                    <img src="../images/careers/hero_img.png" alt="girl-serach" class="img-fluid girl-img">
+                </div>
+                <div class="col-lg-7 offset-lg-1 col-12 mb-lg-0 mb-5">
+                    <h1 class="hero-title fw-semibold mb-4 text-dark-title text-lg-start text-center">Your<span
+                            class="text-primary"> Career
+                        </span>. Our<span class="text-primary"> Mission </span>. One Powerful Platform.</h1>
+                    <p class="mb-32 text-lg-start text-center">Join a purpose-driven team building smarter lending
+                        solutions that empower people
+                        and businesses every day.</p>
+                    <div class="col-12">
+                        <div class="d-flex justify-content-lg-start justify-content-center align-items-center gap-3">
+                            <button class="btn btn-primary rounded-pill">Get Started</button>
+                            <button class="btn btn-outline-dark btn-dark-outline rounded-pill">Try It Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us section -->
+    <section class="section sec-bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"About Us"})
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-xl-5 col-12 mb-xl-0 mb-5">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div class="img-border-wrap">
+                            <div class="img-border img-left-border z-0 d-sm-block d-none"></div>
+                            <img src="../images/careers/aboutimg.jpg" alt="employees"
+                                class="img-border-radius d-block z-1 img-fluid position-relative">
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-xl-6 offset-xl-1 col-12">
+                    <h2 class="text-dark-title mb-3">Who We Are and Why We Build</h2>
+                    <p class="fs-6">At Zeevra, we’re reimagining the future of lending—one line of code, one user experience, & one impactful decision at a time. Our platform empowers borrowers with access, lenders with confidence, and partners with tools that simplify complex financial processes. But behind the product is something even more powerful: our people.</p>
+                    <p class="fs-6">We’re a diverse team of engineers, designers, product thinkers, and problem solvers united by a shared mission—to make lending more transparent, accessible, and human. We believe in building not just for the moment, but for long-term impact, and we’re proud to say our work helps real people & businesses reach their goals every day.</p>
+                    <p class="fs-6">We value collaboration over ego, learning over perfection, and progress over comfort. Whether you're remote or in-office, you’ll find a culture that’s fast-paced but supportive, driven but grounded, and always open to fresh ideas.</p>
+                    <p class="mb-32">If you’re passionate about solving big problems and building meaningful products, you’ll feel right at home here.</p>
+                    <button class="btn btn-primary rounded-pill">Learn More</button>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits section -->
+    <section class="section">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Our Benefits"})
+                    <p class="text-center subtitle">Great people build great products—our benefits are here to support both.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-md-6 col-12 mb-4">
+                    %%include('partials/components/benefitcard4.html',
+                    {"icon-color":"card-icon-soft-success",
+                    "card-bg":"benefits-card4-bg-light",
+                    "icon":"ri-wallet-3-line",
+                    "title":"Competitive Pay Packages",
+                    "description":"We offer industry-leading salaries and performance bonuses to reward your hard work and talent. Your value is recognized and appreciated."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-4">
+                     %%include('partials/components/benefitcard4.html',
+                    {"icon-color":"card-icon-soft-danger",
+                    "card-bg":"benefits-card4-bg-gray",
+                    "icon":"ri-heart-pulse-line",
+                    "title":"Full Health Coverage",
+                    "description":"Comprehensive health, dental, and vision insurance to keep you and your family protected and supported."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-4">
+                     %%include('partials/components/benefitcard4.html',
+                    {"icon-color":"card-icon-soft-blue",
+                    "card-bg":"benefits-card4-bg-light",
+                    "icon":"ri-home-4-line",
+                    "title":"Flexible Work Environment",
+                    "description":"Choose to work remotely, in-office, or hybrid. We support your lifestyle and productivity preferences."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-4">
+                     %%include('partials/components/benefitcard4.html',
+                    {"icon-color":"card-icon-soft-orange",
+                    "card-bg":"benefits-card4-bg-gray",
+                    "icon":"ri-calendar-check-line",
+                    "title":"Generous Time Off",
+                    "description":"Enjoy paid vacation, holidays, and mental health days. Recharge and return refreshed."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-4">
+                     %%include('partials/components/benefitcard4.html',
+                    {"icon-color":"card-icon-soft-primary",
+                    "card-bg":"benefits-card4-bg-light",
+                    "icon":"ri-book-open-line",
+                    "title":"Learning & Development",
+                    "description":"Get access to courses, training, and mentorship to help you grow professionally and personally."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-4">
+                     %%include('partials/components/benefitcard4.html',
+                    {"icon-color":"card-icon-soft-warning",
+                    "card-bg":"benefits-card4-bg-gray",
+                    "icon":"ri-parentheses-line",
+                    "title":"Parental Support",
+                    "description":"We offer parental leave and flexible schedules to support your growing family."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-xl-0 mb-4">
+                     %%include('partials/components/benefitcard4.html',
+                    {"icon-color":"card-icon-soft-info",
+                    "card-bg":"benefits-card4-bg-light",
+                    "icon":"ri-mind-map",
+                    "title":"Wellness & Mental Health",
+                    "description":"Wellness stipends, therapy support, and mental health days—because your health matters most."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-xl-0 mb-4">
+                     %%include('partials/components/benefitcard4.html',
+                    {"icon-color":"card-icon-soft-danger",
+                    "card-bg":"benefits-card4-bg-gray",
+                    "icon":"ri-emotion-happy-line",
+                    "title":"Team Events & Culture",
+                    "description":"Regular offsites, virtual hangouts, and fun team activities to build strong bonds and vibrant culture."})
+                </div>
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div class="card bg-transparent border-0 px-66 py-24">
+                        <img src="../images/careers/benefitimg.png" alt="heart-hands" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Current Openings -->
+    <section class="section sec-bg-light">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Current Openings"})
+                    <p class="text-center subtitle">We’re Hiring! Explore Our Open Positions, Find a role that aligns with your skills and passion</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 mb-4">
+                    %%include('partials/components/currentcard.html',
+                    {"icon":"ri-macbook-line",
+                    "title":"Front-End Developer",
+                    "description":"Build intuitive, high-performance interfaces using React, TypeScript, and modern frameworks.",
+                    "time":"Full Time",
+                    "location":"Remote"})
+                </div>
+                <div class="col-12 mb-4">
+                    %%include('partials/components/currentcard.html',
+                    {"icon":"ri-palette-line",
+                    "title":"UI/UX Designer",
+                    "description":"Design clean, user-focused experiences that align with our product vision and user needs.",
+                    "time":"Full Time",
+                    "location":"Hybrid"})
+                </div>
+                <div class="col-12 mb-4">
+                    %%include('partials/components/currentcard.html',
+                    {"icon":"ri-megaphone-line",
+                    "title":"Content Marketing Specialist",
+                    "description":"Create powerful, SEO-friendly content for our SaaS products that drives growth and awareness.",
+                    "time":"Part-Time",
+                    "location":"Remote"})
+                </div>
+                <div class="col-12 mb-4">
+                    %%include('partials/components/currentcard.html',
+                    {"icon":"ri-tools-line",
+                    "title":"DevOps Engineer",
+                    "description":"Manage CI/CD pipelines, optimize cloud infrastructure, and ensure high platform availability.",
+                    "time":"Full Time",
+                    "location":"Remote"})
+                </div>
+                <div class="col-12">
+                    %%include('partials/components/currentcard.html',
+                    {"icon":"ri-brain-line",
+                    "title":"Product Manager",
+                    "description":"Drive product strategy, collaborate with cross-functional teams, and deliver impactful features.",
+                    "time":"Full Time",
+                    "location":"Hybrid"})
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Culture section -->
+    <section class="section">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Our Culture"})
+                    <p class="text-center subtitle">Our Culture – Built on Innovation & Collaboration, At Zeevra, our culture is at the heart of everything we do.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-3 col-md-6 col-12 mb-xl-0 mb-4">
+                            <div class="card culture-card text-center h-100 border-0">
+                                <div class="card-body">
+                                    <div class="card-icon mb-4">
+                                        <span class="lh-1"><i class="ri-lightbulb-flash-line"></i></span>
+                                    </div>
+                                    <h5 class="card-title mb-3">Innovation</h5>
+                                    <p class="mb-0 card-text">We thrive on creativity, always seeking new ways to solve problems and push boundaries.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-12 mb-xl-0 mb-4">
+                            <div class="card culture-card text-center h-100 border-0">
+                                <div class="card-body">
+                                    <div class="card-icon mb-4">
+                                        <span class="lh-1"><i class="ri-group-line"></i></span>
+                                    </div>
+                                    <h5 class="card-title mb-3">Collaboration</h5>
+                                    <p class="mb-0 card-text">We value teamwork and believe in learning from one another.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-12 mb-md-0 mb-4">
+                            <div class="card culture-card text-center h-100 border-0">
+                                <div class="card-body">
+                                    <div class="card-icon mb-4">
+                                        <span class="lh-1"><i class="ri-global-line"></i></span>
+                                    </div>
+                                    <h5 class="card-title mb-3">Diversity & Inclusion</h5>
+                                    <p class="mb-0 card-text">We thrive on creativity, always seeking new ways to solve problems & push boundaries.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-12 mb-md-0 mb-4">
+                            <div class="card culture-card text-center h-100 border-0">
+                                <div class="card-body">
+                                    <div class="card-icon mb-4">
+                                        <span class="lh-1"><i class="ri-eye-2-line"></i></span>
+                                    </div>
+                                    <h5 class="card-title mb-3">Transparency</h5>
+                                    <p class="mb-0 card-text">Honesty and openness are key to our communication, both internally & externally.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonial section -->
+    <section class="section sec-bg-light testi-section">
+        <div class="container position-relative">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Trusted by Teams Worldwide"})
+                    <p class="text-center subtitle">Don’t just take our word for it — hear how Mantraksh Devs is helping teams streamline workflows, boost productivity, and deliver outstanding results.</p>
+                </div>
+            </div>
+             <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="swiper testiSwiper1">
+                        <div class="swiper-wrapper pt-0">
+                            <!-- slide1 -->
+                            <div class="swiper-slide">
+                                <div class="swiper-testi-card">
+                                    <div class="card testi-card5">
+                                        <div class="card-body">
+                                            <div class="d-flex flex-lg-row flex-column justify-content-lg-start justify-content-center align-items-center gap-lg-60">
+                                                <div class="card-img mb-lg-0 mb-4">
+                                                    <img src="../images/careers/user1.jpg" alt="Liam Schneider" class="h-100 w-100 object-fit-cover d-block">
+                                                </div>
+                                                <div class="card-content">
+                                                    <p class="mb-32 text-sm-start text-center">“Working here has truly been a transformative experience. I’ve had the opportunity to grow not just as a professional, but as a person. The environment is incredibly supportive—everyone’s ideas are heard, and collaboration is part of the culture. Whether it's tackling exciting new challenges or celebrating small wins as a team, every day feels meaningful.”</p>
+                                                    <div class="d-flex flex-sm-row flex-column justify-content-sm-between justify-content-center align-items-center">
+                                                        <div class="text-sm-start text-center">
+                                                            <p class="fw-medium text-dark-title mb-0">Liam Schneider</p>
+                                                            <small class="fs-14">Product Manager – Germany</small>
+                                                        </div>
+                                                        <div class="text-warning d-flex justify-content-center align-items-center gap-1">
+                                                            <span><i class="ri-star-s-fill"></i></span>
+                                                            <span><i class="ri-star-s-fill"></i></span>
+                                                            <span><i class="ri-star-s-fill"></i></span>
+                                                            <span><i class="ri-star-s-fill"></i></span>
+                                                            <span><i class="ri-star-s-fill"></i></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>    
+                                        </div>   
+                                    </div>
+                                    <div class="card-bg-3 d-lg-block d-none"></div>
+                                    <div class="card-bg-4 d-lg-block d-none"></div>
+                                </div>
+                            </div>
+                            
+                            <!-- slide2 -->
+                            <div class="swiper-slide">
+                                <div class="swiper-testi-card">
+                                    <div class="card testi-card5">
+                                        <div class="card-body">
+                                            <div class="d-flex flex-lg-row flex-column justify-content-lg-start justify-content-center align-items-center gap-lg-60">
+                                                <div class="card-img  mb-lg-0 mb-4">
+                                                    <img src="../images/aichatboat/user1.jpg" alt="Sarah Mitchell" class="h-100 w-100 object-fit-cover d-block">
+                                                </div>
+                                                <div class="card-content">
+                                                    <p class="mb-32 text-sm-start text-center">“Integrating these AI tools into our daily operations has been a game-changer. The chatbot handles customer queries instantly, and the automation features have saved our team countless hours each week. It feels like having an extra team member who never sleeps!”</p>
+                                                    <div class="d-flex flex-sm-row flex-column justify-content-sm-between justify-content-center align-items-center">
+                                                        <div class="text-sm-start text-center">
+                                                            <p class="fw-medium text-dark-title mb-0">Sarah Mitchell</p>
+                                                            <small class="fs-14">Product Manager, Web Solutions, New York</small>
+                                                        </div>
+                                                        <div class="text-warning d-flex justify-content-center align-items-center gap-1">
+                                                            <span><i class="ri-star-s-fill"></i></span>
+                                                            <span><i class="ri-star-s-fill"></i></span>
+                                                            <span><i class="ri-star-s-fill"></i></span>
+                                                            <span><i class="ri-star-s-fill"></i></span>
+                                                            <span><i class="ri-star-s-fill"></i></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>    
+                                        </div>   
+                                    </div>
+                                    <div class="card-bg-3 d-lg-block d-none"></div>
+                                    <div class="card-bg-4 d-lg-block d-none"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button d-flex justify-content-center align-items-center gap-4 mt-72">
+                            <div class="swiper-btn-prev">
+                                <span>
+                                    <i class="ri-arrow-left-fill"></i>
+                                </span>
+                            </div>
+                            <div class="swiper-btn-next">
+                                <span>
+                                    <i class="ri-arrow-right-fill"></i>
+                                </span>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA section -->
+    <section class="section features-cta-sec">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 col-12 order-lg-1 order-2">
+                    <div class="text-lg-start text-center">
+                        <h1 class="cta-title fw-semibold text-dark-title mb-3">Take the First Step Toward Smarter Lending</h1>
+                        <p class="cta-text mb-32">Join thousands who are transforming the way they borrow, lend, and grow. Whether you're seeking funding or offering it, our platform gives you the tools, transparency, and support to move forward with confidence. Ready to get started?</p>
+                        <div class="d-flex justify-content-lg-start justify-content-center align-items-center gap-3">
+                            <button class="btn btn-primary rounded-pill">Get Started</button>
+                            <button class="btn btn-outline-dark btn-dark-outline rounded-pill">Try It Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-10 order-lg-2 order-1 mb-lg-0 mb-5">
+                    <img src="../images/careers/cta_img.png" alt="ctaImg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    %%include("partials/layout/footer.html")
+
+
+    %%include("partials/layout/footer-js.html")
+    <script src="plugins/swiper/swiper-bundle.min.js"></script>
+    <script src="js/pages/software.js"></script>
+</body>
+
+</html>

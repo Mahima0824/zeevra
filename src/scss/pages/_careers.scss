@@ -1,0 +1,16 @@
+// careers.scss
+
+
+.careers-hero {
+    .hero-title {
+        @media (min-width: 576px) {
+            font-size: 52px;
+            line-height: 3.75rem;
+        }
+
+        filter: drop-shadow(0px 4px 4px rgba($gray-900, 0.2));
+    }
+    .girl-img{
+          filter: drop-shadow(5px 12px 3px rgba($gray-900, 0.16));
+    }
+}

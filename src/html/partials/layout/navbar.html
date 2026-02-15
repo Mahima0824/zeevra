@@ -1,0 +1,81 @@
+<nav class="navbar navbar-expand-xl position-fixed w-100">
+    <div class="container">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+            <img src="images/logos/logo-dark.svg" alt="Logo Dark" width="172" height="44" class="logo-dark">
+            <img src="images/logos/logo-light.svg" alt="Logo Light" width="172" height="44" class="logo-light">
+            <img src="images/logos/logo.svg" alt="Logo Small" width="40" height="40" class="d-sm-none d-block">
+        </a>
+
+        <!-- toggler/login button in responsive -->
+        <div class="d-xl-none d-flex justify-content-center align-items-center gap-3">
+            <!-- Theme Toggle -->
+            <button class="theme-toggle bg-transparent border-0 text-muted" onclick="ThemeManager.toggle()">
+                <span><i id="theme-toggle-icon-small" class="ri-moon-line fs-5"></i></span>
+            </button>
+            <a class="btn btn-sm btn-login" href="../../signup.html" role="button">Login</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="fs-1"><i class="ri-menu-add-fill"></i></span>
+            </button>
+        </div>
+
+        <!-- navbar links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item dropdown mt-xl-0 mt-4">
+                    <a class="nav-link dropdown-toggle" aria-current="page" href="/" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Home <i class="ri-arrow-down-s-line"></i></a>
+                    <ul class="dropdown-menu">
+                        <li class="mb-2"><a class="dropdown-item" href="../../index.html">Project Management SaaS</a>
+                        </li>
+                        <li class="mb-2"><a class="dropdown-item" href="../../crmsoftware.html">CRM/ERP Software</a>
+                        </li>
+                        <li class="mb-2"><a class="dropdown-item" href="../../aichatboat.html">AI Tools or Chatbots</a>
+                        </li>
+                        <li class="mb-2"><a class="dropdown-item" href="../../finance.html">Finance/Billing Software</a>
+                        </li>
+                        <li class="mb-2"><a class="dropdown-item" href="../../marketing.html">Marketing Analytics
+                                Tool</a></li>
+                        <li><a class="dropdown-item" href="../../cloudstorage.html">Cloud Storage/Hosting SaaS</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../features.html">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../price.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../careers.html">Careers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../team.html">Team</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" aria-current="page" href="#" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Blog <i class="ri-arrow-down-s-line"></i></a>
+                    <ul class="dropdown-menu">
+                        <li class="mb-2"><a class="dropdown-item" href="../../bloggrid.html">Blog Grid</a></li>
+                        <li class="mb-2"><a class="dropdown-item" href="../../bloglist.html">Blog List</a></li>
+                        <li><a class="dropdown-item" href="../../blogdetails.html">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item mb-xl-0 mb-4">
+                    <a class="nav-link" href="../../contact.html">Contact Us</a>
+                </li>
+            </ul>
+
+            <!-- login buttton in large -->
+            <div class="d-none d-xl-flex justify-content-xl-center align-items-xl-center gap-3">
+                <!-- Theme Toggle -->
+                <button class="theme-toggle bg-transparent border-0 text-muted" onclick="ThemeManager.toggle()">
+                    <span><i id="theme-toggle-icon-small" class="ri-moon-line fs-5"></i></span>
+                </button>
+                <a class="btn btn-sm btn-login" href="../../signup.html" role="button">Login</a>
+            </div>
+        </div>
+
+    </div>
+</nav>

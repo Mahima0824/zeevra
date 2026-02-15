@@ -1,0 +1,53 @@
+// signup.scss
+
+.auth-page {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+    background-image: url('../../images/auth-bg-002.png');
+    background-color: rgba($primary, 0.3);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: cover;
+    animation: bgmove 20s linear infinite;
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba($white, 0.7);
+        backdrop-filter: blur(32px);
+    }
+
+    .log-link {
+        color: var(--bs-hero-badge-color);
+    }
+
+    hr {
+        color: var(--bs-features-card-border-color);
+    }
+}
+
+@keyframes bgmove {
+    to {
+        background-position-x: -100vw;
+    }
+}
+
+[data-bs-theme="dark"] {
+    .auth-page {
+        background-color: rgba($gray-900, 0.3);
+
+        .overlay {
+            background-color: rgba($gray-900, 0.7);
+        }
+    }
+
+}

@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    %%include('partials/layout/meta.html')
+    %%include('partials/layout/css.html')
+</head>
+
+<body>
+    <!-- navbar -->
+    %%include('partials/layout/navbar.html')
+
+    <!-- Hero section -->
+    <section class="hero-section cloudstorage-hero-bgimg">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12">
+                    <div class="text-center cloudstorage-hero-content">
+                        <span class="rocket-icon"><i class="ri-rocket-2-fill fs-3"></i></span>
+                        <h1 class="display-5 fw-semibold text-dark-title mb-4">Experience Seamless, Secure &
+                            Scalable<span class="text-primary"> Cloud Hosting </span>— Built for Modern Teams</h1>
+                        <p class="fs-4 mb-48">Securely store, manage, & deploy your files or apps with scalable cloud
+                            infrastructure—no servers, no stress, just performance you can trust.</p>
+                        <div class="d-flex justify-content-center align-items-center gap-3 mb-48">
+                            <button class="btn btn-primary rounded-pill">Get Started</button>
+                            <button class="btn btn-outline-dark btn-dark-outline rounded-pill">Try It Now</button>
+                        </div>
+                        <div class="ratio ratio-21x9 overflow-hidden img-border-radius mb-xl-5 mb-4">
+                            <img src="../images/cloudstorage/saas.jpg" alt="SaasImg"
+                                class="h-100 w-100 object-fit-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits section -->
+    <section class="section">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Our Benefits"})
+                    <p class="text-center subtitle">Enjoy secure, scalable, and lightning-fast storage and hosting—built
+                        to grow with your needs.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-12 mb-4">
+                    <div class="card cloud-card large-card card-icon-soft-success h-100">
+                        <div class="card-icon">
+                            <div class="card-icon-bg"></div>
+                            <span class="icon lh-1"><i class="ri-shield-check-line"></i></span>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">100% Uptime Guarantee</p>
+                            <p class="card-text">Gain a complete, unified view of all your marketing efforts across
+                                every channel. Track performance, identify trends, and make data-driven decisions with
+                                full visibility into what’s driving results.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 mb-4">
+                    <div class="card cloud-card large-card card-icon-soft-warning h-100">
+                        <div class="card-icon">
+                            <div class="card-icon-bg"></div>
+                            <span class="icon lh-1"><i class="ri-timer-flash-line"></i></span>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Ultra Fast Load Times</p>
+                            <p class="card-text">Deliver lightning-fast experiences with optimized cloud hosting that
+                                ensures minimal load times, better performance, and improved user satisfaction.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12  mb-lg-0 mb-4">
+                    <div class="card cloud-card small-card card-icon-soft-info h-100">
+                        <div class="card-icon">
+                            <div class="card-icon-bg"></div>
+                            <span class="icon lh-1"><i class="ri-upload-cloud-2-line"></i></span>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Global CDN Included</p>
+                            <p class="card-text">Ensure faster content delivery and reduced latency worldwide with a
+                                built-in Content Delivery Network (CDN) that brings your data closer to your users.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-lg-0 mb-4">
+                    <div class="card cloud-card small-card card-icon-soft-primary h-100">
+                        <div class="card-icon">
+                            <div class="card-icon-bg"></div>
+                            <span class="icon lh-1"><i class="ri-building-line"></i></span>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">End-to-End Encryption</p>
+                            <p class="card-text">Protect your data with end-to-end encryption that ensures only you and
+                                your authorized users can access sensitive information—no third-party interference.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card cloud-card small-card card-icon-soft-danger h-100">
+                        <div class="card-icon">
+                            <div class="card-icon-bg"></div>
+                            <span class="icon lh-1"><i class="ri-code-s-slash-line"></i></span>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Developer-Friendly Interface</p>
+                            <p class="card-text">Easily navigate and manage your cloud environment with an intuitive
+                                interface built for speed, clarity, and seamless developer workflows.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Breakdown -->
+    <section class="section bg-gray cloud-features-sec">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Feature Breakdown"})
+                    <p class="text-center subtitle">Explore powerful features designed to deliver secure, scalable, and
+                        high-performance cloud storage and hosting.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-5 col-12">
+                    <h3 class="fs-26 text-dark-title mb-32 text-center">Cloud Storage Features</h3>
+                    <div class="h-100">
+                        <!-- card1 -->
+                        <div class="storage-features mb-3">
+                            <div class="card feature-card3 card-icon-soft-blue h-100">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="icon me-4">
+                                            <span class="lh-1"><i class="ri-folder-upload-line"></i></span>
+                                        </div>
+                                        <div>
+                                            <h5 class="fs-22 fw-medium text-dark-title mb-1">Unlimited file types and
+                                                sizes
+                                            </h5>
+                                            <p class="fs-6 mb-0">Store and manage any file type without restrictions—no
+                                                limits
+                                                on size, format, or usage.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card2 -->
+                        <div class="storage-features mb-3">
+                            <div class="card feature-card3 card-icon-soft-primary h-100">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="icon me-4">
+                                            <span class="lh-1"><i class="ri-code-s-line"></i></span>
+                                        </div>
+                                        <div>
+                                            <h5 class="fs-22 fw-medium text-dark-title mb-1">API for custom integrations
+                                            </h5>
+                                            <p class="fs-6 mb-0">Easily connect your apps and workflows with powerful
+                                                APIs
+                                                designed for seamless custom integrations.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card3 -->
+                        <div class="storage-features mb-3">
+                            <div class="card feature-card3 card-icon-soft-orange h-100">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="icon me-4">
+                                            <span class="lh-1"><i class="ri-share-line"></i></span>
+                                        </div>
+                                        <div>
+                                            <h5 class="fs-22 fw-medium text-dark-title mb-1">Folder sharing & access
+                                                control
+                                            </h5>
+                                            <p class="fs-6 mb-0">Share folders securely and control access with
+                                                customizable
+                                                permissions for teams and collaborators.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card4 -->
+                        <div class="storage-features mb-3">
+                            <div class="card feature-card3 card-icon-soft-success h-100">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="icon me-4">
+                                            <span class="lh-1"><i class="ri-file-cloud-line"></i></span>
+                                        </div>
+                                        <div>
+                                            <h5 class="fs-22 fw-medium text-dark-title mb-1">Automated backups</h5>
+                                            <p class="fs-6 mb-0">Keep your data safe with scheduled, automated backups
+                                                that
+                                                ensure quick recovery and peace of mind.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card5 -->
+                        <div class="storage-features">
+                            <div class="card feature-card3 card-icon-soft-danger h-100">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="icon me-4">
+                                            <span class="lh-1"><i class="ri-chat-history-line"></i></span>
+                                        </div>
+                                        <div>
+                                            <h5 class="fs-22 fw-medium text-dark-title mb-1">File versioning and
+                                                recovery
+                                            </h5>
+                                            <p class="fs-6 mb-0">Track and restore previous file versions with ease,
+                                                ensuring you never lose important data.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 my-lg-0 my-5">
+                    <div
+                        class="h-100 d-flex flex-lg-column flex-row justify-content-center align-items-center position-relative">
+                        <div class="vertical-border"></div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12">
+                    <h3 class="fs-26 text-dark-title mb-32 text-center">Cloud Hosting Features</h3>
+                    <div class="h-100">
+                        <!-- card6 -->
+                        <div class="hosting-features mb-3">
+                            <div class="card feature-card3 card-icon-soft-success h-100">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="icon me-4">
+                                            <span class="lh-1"><i class="ri-flashlight-line"></i></span>
+                                        </div>
+                                        <div>
+                                            <h5 class="fs-22 fw-medium text-dark-title mb-1">1 Click Deployment</h5>
+                                            <p class="fs-6 mb-0">Launch your apps or websites instantly with 1-click
+                                                deployment—no setup hassles, just go live in seconds.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card7 -->
+                        <div class="hosting-features mb-3">
+                            <div class="card feature-card3 card-icon-soft-info h-100">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="icon me-4">
+                                            <span class="lh-1"><i class="ri-git-branch-line"></i></span>
+                                        </div>
+                                        <div>
+                                            <h5 class="fs-22 fw-medium text-dark-title mb-1">Git-based Deployment</h5>
+                                            <p class="fs-6 mb-0">Push code directly from your Git repository for fast,
+                                                streamlined, and version-controlled deployments.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card8 -->
+                        <div class="hosting-features mb-3">
+                            <div class="card feature-card3 card-icon-soft-primary h-100">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="icon me-4">
+                                            <span class="lh-1"><i class="ri-bar-chart-line"></i></span>
+                                        </div>
+                                        <div>
+                                            <h5 class="fs-22 fw-medium text-dark-title mb-1">Auto-scaling Infrastructure
+                                            </h5>
+                                            <p class="fs-6 mb-0">Automatically adjusts resources to handle traffic
+                                                spikes
+                                                and growth without manual intervention.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card9 -->
+                        <div class="hosting-features mb-3">
+                            <div class="card feature-card3 card-icon-soft-blue h-100">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="icon me-4">
+                                            <span class="lh-1"><i class="ri-cpu-line"></i></span>
+                                        </div>
+                                        <div>
+                                            <h5 class="fs-22 fw-medium text-dark-title mb-1">Container or Server less
+                                                Support</h5>
+                                            <p class="fs-6 mb-0">Deploy using containers or server less functions with
+                                                full
+                                                flexibility and modern architecture support.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card10 -->
+                        <div class="hosting-features">
+                            <div class="card feature-card3 card-icon-soft-danger h-100">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="icon me-4">
+                                            <span class="lh-1"><i class="ri-shield-check-line"></i></span>
+                                        </div>
+                                        <div>
+                                            <h5 class="fs-22 fw-medium text-dark-title mb-1">SSL & Domains</h5>
+                                            <p class="fs-6 mb-0">Secure your site with free SSL and manage custom
+                                                domains—all in one place, hassle-free.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works section -->
+    <section class="section process-sec">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-xl-85 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"How it Works?"})
+                    <p class="text-center subtitle">Set up in minutes—upload files, deploy apps, & manage everything
+                        from a single, intuitive dashboard. Our cloud handles the rest with speed, security, and
+                        scalability.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center mb-5">
+                <div class="col-xl-10 col-12">
+                    <div class="d-flex align-items-center position-relative process-count justify-content-between">
+                        <div class="connecting-line"></div>
+                        <div class="connecting-line-active"></div>
+                        <a class="text-center process-num-outer-border active" href="#" data-target="step1">
+                            <h4 class="d-inline-block process-num mb-0">1</h4>
+                        </a>
+                        <a class="text-center process-num-outer-border" href="#" data-target="step2">
+                            <h4 class="d-inline-block process-num mb-0">2</h4>
+                        </a>
+                        <a class="text-center process-num-outer-border" href="#" data-target="step3">
+                            <h4 class="d-inline-block process-num mb-0">3</h4>
+                        </a>
+                        <a class="text-center process-num-outer-border" href="#" data-target="step4">
+                            <h4 class="d-inline-block process-num mb-0">4</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-5 col-12">
+                    <div class="step-content-wrapper">
+                        <div class="step-content" id="step1">
+                            <h2 class="fs-lg-36 mb-12 text-dark-title">Sign up & pick your storage or hosting tier</h2>
+                            <p class="fs-6">Simplify your setup by signing up and selecting the right storage or hosting plan
+                                that fits your needs—whether you're an individual creator, a dev team, or a growing business.
+                            </p>
+                            <p class="fw-medium text-dark-title mb-12">Key Highlights:</p>
+                            <div class="d-flex align-item-center mb-2">
+                                <span class="me-2 lh-1"><i class="ri-edit-box-line"></i></span>
+                                <p class="mb-0 fs-6">Easy, hassle-free signup with email or SSO</p>
+                            </div>
+                            <div class="d-flex align-item-center mb-2">
+                                <span class="me-2 lh-1"><i class="ri-suitcase-line"></i></span>
+                                <p class="mb-0 fs-6">Flexible plans for storage & deployment needs</p>
+                            </div>
+                            <div class="d-flex align-item-center mb-2">
+                                <span class="me-2 lh-1"><i class="ri-lock-2-line"></i></span>
+                                <p class="mb-0 fs-6">All plans include built-in security and uptime guarantees</p>
+                            </div>
+                        </div>
+                        <div class="step-content" id="step2">
+                            <h2 class="fs-lg-36 mb-12 text-dark-title">Configure & Deploy Your Cloud Environment</h2>
+                            <p class="fs-6">Set up your cloud environment by configuring servers, storage, and network settings. Deploy your website or application instantly using automated tools and pre-configured templates.
+                            </p>
+                            <p class="fw-medium text-dark-title mb-12">Key Highlights:</p>
+                            <div class="d-flex align-item-center mb-2">
+                                <span class="me-2 lh-1"><i class="ri-cursor-line"></i></span>
+                                <p class="mb-0 fs-6">One-click deployment</p>
+                            </div>
+                            <div class="d-flex align-item-center mb-2">
+                                <span class="me-2 lh-1"><i class="ri-settings-3-line"></i></span>
+                                <p class="mb-0 fs-6">Customizable cloud settings</p>
+                            </div>
+                            <div class="d-flex align-item-center mb-2">
+                                <span class="me-2 lh-1"><i class="ri-speed-line"></i></span>
+                                <p class="mb-0 fs-6">Fast setup with minimal effort</p>
+                            </div>
+                        </div>
+                        <div class="step-content" id="step3">
+                            <h2 class="fs-lg-36 mb-12 text-dark-title">Manage Resources & Scale Easily</h2>
+                            <p class="fs-6">Monitor your cloud resources in real time and easily scale storage, bandwidth, or computing power as your workload grows. Cloud hosting adapts seamlessly to your changing demands.
+                            </p>
+                            <p class="fw-medium text-dark-title mb-12">Key Highlights:</p>
+                            <div class="d-flex align-item-center mb-2">
+                                <span class="me-2 lh-1"><i class="ri-dashboard-line"></i></span>
+                                <p class="mb-0 fs-6">Real-time monitoring</p>
+                            </div>
+                            <div class="d-flex align-item-center mb-2">
+                                <span class="me-2 lh-1"><i class="ri-expand-up-down-line"></i></span>
+                                <p class="mb-0 fs-6">Instant scalability</p>
+                            </div>
+                            <div class="d-flex align-item-center mb-2">
+                                <span class="me-2 lh-1"><i class="ri-speed-up-line"></i></span>
+                                <p class="mb-0 fs-6">High performance & reliability</p>
+                            </div>
+                        </div>
+                        <div class="step-content" id="step4">
+                            <h2 class="fs-lg-36 mb-12 text-dark-title">Secure Your Data & Optimize Performance</h2>
+                            <p class="fs-6">Access your cloud resources from anywhere while keeping your data safe with advanced security, backups, and optimization features to ensure maximum uptime and performance.
+                            </p>
+                            <p class="fw-medium text-dark-title mb-12">Key Highlights:</p>
+                            <div class="d-flex align-item-center mb-2">
+                                <span class="me-2 lh-1"><i class="ri-shield-check-line"></i></span>
+                                <p class="mb-0 fs-6">Enterprise-grade security</p>
+                            </div>
+                            <div class="d-flex align-item-center mb-2">
+                                <span class="me-2 lh-1"><i class="ri-refresh-line"></i></span>
+                                <p class="mb-0 fs-6">Automated backups</p>
+                            </div>
+                            <div class="d-flex align-item-center mb-2">
+                                <span class="me-2 lh-1"><i class="ri-global-line"></i></span>
+                                <p class="mb-0 fs-6">Global access & optimization</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1 col-12">
+                    <div class="step-image-wrapper img-border-radius">
+                        <img src="../images/cloudstorage/webhosting.jpg" alt="step image"
+                            class="step-image" id="stepImage">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial section -->
+    <section class="section bg-gray cloud-testi-sec">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Our Testimonials"})
+                    <p class="text-center subtitle">See how businesses, developers, and creators rely on our platform
+                        for fast, secure, and scalable cloud storage and hosting.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-8 col-lg-10 col-12">
+                    <div class="swiper testiSwiper1">
+                        <div class="swiper-wrapper pt-0">
+                            <!-- slide1 -->
+                            <div class="swiper-slide">
+                                <div class="testi-details text-center">
+                                    <img src="../images/avatars/avatar8.jpg" alt="Sarah Mitchell" class="user-img">
+                                    <div
+                                        class="text-warning d-flex justify-content-center gap-1 align-items-center mb-3">
+                                        <span class="lh-1"><i class="ri-star-s-fill"></i></span>
+                                        <span class="lh-1"><i class="ri-star-s-fill"></i></span>
+                                        <span class="lh-1"><i class="ri-star-s-fill"></i></span>
+                                        <span class="lh-1"><i class="ri-star-s-fill"></i></span>
+                                        <span class="lh-1"><i class="ri-star-s-fill"></i></span>
+                                    </div>
+                                    <p class="fw-medium mb-0 text-dark-title">Sarah Mitchell</p>
+                                    <small class="fs-14">Marketing Manager at NovaReach</small>
+                                    <div class="card testi-card6 mt-4">
+                                        <div class="quotes-icon">
+                                            <span class="lh-1"><i class="ri-double-quotes-l"></i></span>
+                                        </div>
+                                        <div class="quotes-icon2">
+                                            <span class="lh-1"><i class="ri-double-quotes-r"></i></span>
+                                        </div>
+                                        <div class="card-body py-lg-40 px-lg-80 p-4">
+                                            <p class="fs-6 fst-italic mb-0">As a fast-growing digital agency, we needed
+                                                a scalable hosting solution that didn’t require a dedicated ops team.
+                                                This platform delivered beyond our expectations. The auto-scaling
+                                                infrastructure handled our traffic spikes during product launches
+                                                without a hitch. The global CDN and fast load times have significantly
+                                                improved user experience for our clients worldwide.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- slide2 -->
+                            <div class="swiper-slide">
+                                <div class="testi-details text-center">
+                                    <img src="../images/avatars/avatar1.jpg" alt="Sarah Mitchell" class="user-img">
+                                    <div
+                                        class="text-warning d-flex justify-content-center gap-1 align-items-center mb-3">
+                                        <span class="lh-1"><i class="ri-star-s-fill"></i></span>
+                                        <span class="lh-1"><i class="ri-star-s-fill"></i></span>
+                                        <span class="lh-1"><i class="ri-star-s-fill"></i></span>
+                                        <span class="lh-1"><i class="ri-star-s-fill"></i></span>
+                                        <span class="lh-1"><i class="ri-star-s-fill"></i></span>
+                                    </div>
+                                    <p class="fw-medium mb-0 text-dark-title">Isabella Moretti</p>
+                                    <small class="fs-14">Marketing Manager at NovaReach</small>
+                                    <div class="card testi-card6 mt-4">
+                                        <div class="quotes-icon">
+                                            <span class="lh-1"><i class="ri-double-quotes-l"></i></span>
+                                        </div>
+                                        <div class="quotes-icon2">
+                                            <span class="lh-1"><i class="ri-double-quotes-r"></i></span>
+                                        </div>
+                                        <div class="card-body py-lg-40 px-lg-80 p-4">
+                                            <p class="fs-6 fst-italic mb-0">As a fast-growing digital agency, we needed
+                                                a scalable hosting solution that didn’t require a dedicated ops team.
+                                                This platform delivered beyond our expectations. The auto-scaling
+                                                infrastructure handled our traffic spikes during product launches
+                                                without a hitch. The global CDN and fast load times have significantly
+                                                improved user experience for our clients worldwide.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button d-flex justify-content-center align-items-center gap-4 mt-4">
+                            <div class="swiper-btn-prev">
+                                <span>
+                                    <i class="ri-arrow-left-fill"></i>
+                                </span>
+                            </div>
+                            <div class="swiper-btn-next">
+                                <span>
+                                    <i class="ri-arrow-right-fill"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Our Pricing"})
+                    <p class="text-center subtitle">Whether you're a solo developer or an enterprise team, choose a plan
+                        that grows with your needs—no hidden fees, just flexible options built for scale.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-lg-6 col-12 mb-xl-0 mb-4">
+                    <div class="card price-card3 price-card-bg-light">
+                        <div class="card-body pb-0">
+                            <h4 class="text-dark-title mb-3  text-center">Starter Plan</h4>
+                            <div class="d-flex justify-content-center align-items-end mb-4">
+                                <h2 class="mb-0 text-dark-title fw-semibold">$9/</h2>
+                                <p class="mb-0 text-muted">Month</p>
+                            </div>
+                            <hr class="my-4">
+                            <ul class="features-list ps-20 mb-0">
+                                <li><span class="me-12"><i class="ri-checkbox-circle-line"></i></span>10 GB storage</li>
+                                <li><span class="me-12"><i class="ri-checkbox-circle-line"></i></span>100 GB bandwidth
+                                </li>
+                                <li><span class="me-12"><i class="ri-checkbox-circle-line"></i></span>Auto-scaling
+                                    infrastructure</li>
+                                <li class="text-muted"><span class="me-12"><i
+                                            class="ri-checkbox-circle-line"></i></span>Unlimited
+                                    websites/apps</li>
+                                <li class="text-muted"><span class="me-12"><i
+                                            class="ri-checkbox-circle-line"></i></span>Advanced security
+                                    & access control</li>
+                                <li class="text-muted"><span class="me-12"><i
+                                            class="ri-checkbox-circle-line"></i></span>API access &
+                                    analytics</li>
+                                <li class="text-muted"><span class="me-12"><i
+                                            class="ri-checkbox-circle-line"></i></span>Premium support
+                                </li>
+                            </ul>
+                            <hr class="my-4">
+                        </div>
+                        <div class="card-footer border-0 bg-transparent pt-0 pb-4">
+                            <button class="btn btn-get-start w-100 py-12">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-12 mb-xl-0 mb-4">
+                    <div class="card price-card3 price-card-bg-primary">
+                        <div class="card-body pb-0">
+                            <h4 class="text-dark-title mb-3 text-center">Pro Plan</h4>
+                            <div class="d-flex justify-content-center align-items-end mb-4">
+                                <h2 class="mb-0 fw-semibold">$29/</h2>
+                                <p class="mb-0 text-muted">Month</p>
+                            </div>
+                            <hr class="my-4">
+                            <ul class="features-list ps-20 mb-0">
+                                <li><span class="me-12"><i class="ri-checkbox-circle-line"></i></span>100 GB storage
+                                </li>
+                                <li><span class="me-12"><i class="ri-checkbox-circle-line"></i></span>1 TB bandwidth
+                                </li>
+                                <li><span class="me-12"><i class="ri-checkbox-circle-line"></i></span>Auto-scaling
+                                    infrastructure</li>
+                                <li><span class="me-12"><i class="ri-checkbox-circle-line"></i></span>Unlimited
+                                    websites/apps</li>
+                                <li><span class="me-12"><i class="ri-checkbox-circle-line"></i></span>Advanced security
+                                    & access control</li>
+                                <li class="text-muted"><span class="me-12"><i
+                                            class="ri-checkbox-circle-line"></i></span>API access & analytics</li>
+                                <li class="text-muted"><span class="me-12"><i
+                                            class="ri-checkbox-circle-line"></i></span>Premium support</li>
+                            </ul>
+                            <hr class="my-4">
+                        </div>
+                        <div class="card-footer border-0 bg-transparent pt-0 pb-4">
+                            <button class="btn btn-outline-primary btn-dark-outline shadow-none w-100 py-12">Get
+                                Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-12">
+                    <div class="card price-card3 price-card-bg-light">
+                        <div class="card-body pb-0">
+                            <h4 class="text-dark-title mb-3 text-center">Business Plan</h4>
+                            <div class="d-flex justify-content-center align-items-end mb-4">
+                                <h2 class="mb-0 text-dark-title fw-semibold">$99/</h2>
+                                <p class="mb-0 text-muted">Month</p>
+                            </div>
+                            <hr class="my-4">
+                            <ul class="features-list ps-20 mb-0">
+                                <li><span class="me-12"><i class="ri-checkbox-circle-line"></i></span>1 TB storage</li>
+                                <li><span class="me-12"><i class="ri-checkbox-circle-line"></i></span>5 TB bandwidth
+                                </li>
+                                <li><span class="me-12"><i class="ri-checkbox-circle-line"></i></span>Auto-scaling
+                                    infrastructure</li>
+                                <li><span class="me-12"><i class="ri-checkbox-circle-line"></i></span>Unlimited
+                                    websites/apps</li>
+                                <li><span class="me-12"><i class="ri-checkbox-circle-line"></i></span>Advanced security
+                                    & access control</li>
+                                <li><span class="me-12"><i class="ri-checkbox-circle-line"></i></span>API access &
+                                    analytics</li>
+                                <li><span class="me-12"><i class="ri-checkbox-circle-line"></i></span>Premium support
+                                </li>
+                            </ul>
+                            <hr class="my-4">
+                        </div>
+                        <div class="card-footer border-0 bg-transparent pt-0 pb-4">
+                            <button class="btn btn-get-start w-100 py-12">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section bg-gray">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Frequently Asked Questions"})
+                    <p class="text-center subtitle">Have questions? We’ve got answers. Browse through the most common
+                        queries to understand how our platform works and how it can help your business.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 col-12 order-lg-1 order-2">
+                    <h3 class="text-dark-title mb-32">Quick Answers for a Smarter Start</h3>
+                    <div class="accordion accordion-flush cloud-acco-faqs" id="accordionCloudFaqs">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button fs-20 px-0" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#cloud-flush-collapseOne" aria-expanded="true"
+                                    aria-controls="cloud-flush-collapseOne">
+                                    What types of files can I store on the platform?
+                                    <div class="toggle-icon">
+                                        <span class="icon-plus"><i class="ri-add-large-line"></i></span>
+                                        <span class="icon-minus"><i class="ri-subtract-line"></i></span>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="cloud-flush-collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionCloudFaqs">
+                                <div class="accordion-body px-0 pt-3 pb-4 fs-6">You can store virtually any file type on
+                                    the
+                                    platform—documents, images, videos, code
+                                    files, backups, and more—with no restrictions on format.</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fs-20 px-0" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#cloud-flush-collapseTwo"
+                                    aria-expanded="false" aria-controls="cloud-flush-collapseTwo">
+                                    Is there a limit to how much data I can upload?
+                                    <div class="toggle-icon">
+                                        <span class="icon-plus"><i class="ri-add-large-line"></i></span>
+                                        <span class="icon-minus"><i class="ri-subtract-line"></i></span>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="cloud-flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionCloudFaqs">
+                                <div class="accordion-body px-0 pt-3 pb-4 fs-6">You can store virtually any file type on
+                                    the
+                                    platform—documents, images, videos, code
+                                    files, backups, and more—with no restrictions on format.</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fs-20 px-0" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#cloud-flush-collapseThree"
+                                    aria-expanded="false" aria-controls="cloud-flush-collapseThree">
+                                    Is there a limit to how much data I can upload?
+                                    <div class="toggle-icon">
+                                        <span class="icon-plus"><i class="ri-add-large-line"></i></span>
+                                        <span class="icon-minus"><i class="ri-subtract-line"></i></span>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="cloud-flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionCloudFaqs">
+                                <div class="accordion-body px-0 pt-3 pb-4 fs-6">You can store virtually any file type on
+                                    the
+                                    platform—documents, images, videos, code
+                                    files, backups, and more—with no restrictions on format.</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fs-20 px-0" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#cloud-flush-collapseFour"
+                                    aria-expanded="false" aria-controls="cloud-flush-collapseFour">
+                                    How secure is my data on your platform?
+                                    <div class="toggle-icon">
+                                        <span class="icon-plus"><i class="ri-add-large-line"></i></span>
+                                        <span class="icon-minus"><i class="ri-subtract-line"></i></span>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="cloud-flush-collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionCloudFaqs">
+                                <div class="accordion-body px-0 pt-3 pb-4 fs-6">You can store virtually any file type on
+                                    the
+                                    platform—documents, images, videos, code
+                                    files, backups, and more—with no restrictions on format.</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fs-20 px-0" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#cloud-flush-collapseFive"
+                                    aria-expanded="false" aria-controls="cloud-flush-collapseFive">
+                                    Can I connect my custom domain?
+                                    <div class="toggle-icon">
+                                        <span class="icon-plus"><i class="ri-add-large-line"></i></span>
+                                        <span class="icon-minus"><i class="ri-subtract-line"></i></span>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="cloud-flush-collapseFive" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionCloudFaqs">
+                                <div class="accordion-body px-0 pt-3 pb-4 fs-6">You can store virtually any file type on
+                                    the
+                                    platform—documents, images, videos, code
+                                    files, backups, and more—with no restrictions on format.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-12 order-lg-2 order-1 mb-lg-0 mb-4">
+                    <img src="../images/cloudstorage/cta_img.jpg" alt="ctaimg" class="img-fluid img-border-radius">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA section -->
+    <section class="section blog-cta">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-xl-10 col-12">
+                    <div class="text-center">
+                        <h1 class="fw-semibold text-dark-title cta-title mb-4">Take Control of Your Cloud—Secure,
+                            Scalable,
+                            & Effortlessly Fast</h1>
+                        <p class="cta-text mb-32">Whether you're deploying your first app or managing enterprise-level
+                            storage, our cloud platform gives you the tools to build, scale, and secure your projects
+                            with
+                            ease. Get started today and experience performance without compromise.</p>
+                        <div class="d-flex justify-content-center align-items-center gap-3">
+                            <button class="btn btn-primary rounded-pill">Get Started</button>
+                            <button class="btn btn-outline-dark btn-dark-outline rounded-pill">Try It Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    %%include("partials/layout/footer.html")
+
+   
+    %%include("partials/layout/footer-js.html")
+    <script src="plugins/swiper/swiper-bundle.min.js"></script>
+    <script src="js/pages/software.js"></script>
+    <script src="js/pages/cloud.js"></script>
+
+</body>
+
+</html>

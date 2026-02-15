@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    %%include('partials/layout/meta.html')
+    %%include('partials/layout/css.html')
+</head>
+
+<body class="bg-gray">
+    <!-- navbar -->
+    %%include('partials/layout/navbar.html')
+
+    <!-- Hero Section -->
+    <section class="blogdetails-hero-section sec-bg-light">
+        <div>
+             <img src="../images/blog/bg_img.png" alt="hero-bg-img" class="position-absolute top-0 left-0 img-fluid z-1">
+        </div>
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center">
+                <div class="col-xl-10 col-12 mb-4">
+                    <div class="position-relative z-2">
+                        <h1 class="hero-title fw-semibold mb-0 text-dark-title">Unlock<span class="text-primary">
+                                Flexible Pricing </span>Built to Support Your Business at Every Step of the Journey</h1>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-12 mb-32">
+                    <div class="position-relative z-2">
+                        <p class="mb-0">Choose the plan that grows with you — simple, scalable, and designed to support your business at every stage.</p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex justify-content-center align-items-center gap-3 position-relative z-2">
+                        <button class="btn btn-primary rounded-pill">Get Started</button>
+                        <button class="btn btn-outline-dark btn-dark-outline rounded-pill">Try It Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-100">
+                <div class="col-xl-4 col-md-6 col-12 mb-xl-0 mb-4">
+                    <div class="card price-card price-card-bg-light h-100 position-relative z-2">
+                        <div class="card-body">
+                            %%include('partials/components/pricecard.html',{"title":"Free","description":"Perfect for individuals and small teams to get started with essential features at no cost.","btn-color":"btn-get-start"})
+                            <ul class="features-list ps-0 mb-0">
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>1 user</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>Basic features</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>Email support</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>Community access</li>
+                                <li><span class="text-danger me-12"><i class="ri-close-line"></i></span>No integrations</li>
+                                <li><span class="text-danger me-12"><i class="ri-close-line"></i></span>Limited storage</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-12  mb-xl-0 mb-4">
+                    <div class="card price-card price-card-bg-primary h-100 position-relative z-2">
+                        <div class="card-body">
+                            %%include('partials/components/pricecard.html',{"title":"Pro Plan","description":"Unlock advanced tools for growing teams and take your project management to the next level.","btn-color":"btn-primary"})
+                            <ul class="features-list ps-0 mb-0">
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>Up to 5 users</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>All Free features</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>Custom branding</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>Priority support</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>Basic integrations</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>50 GB storage</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div class="card price-card price-card-bg-light h-100 position-relative z-2">
+                        <div class="card-body">
+                            %%include('partials/components/pricecard.html',{"title":"Business Plan","description":"Designed for larger teams needing full-scale solutions with premium features and priority support.","btn-color":"btn-get-start"})
+                            <ul class="features-list ps-0 mb-0">
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>Unlimited users</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>All Pro features</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>Advanced analytics</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>API access</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>SSO & security controls</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>Dedicated support manager</li>
+                                <li><span class="text-success me-12"><i class="ri-check-line"></i></span>1 TB storage</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing table Section -->
+    <section class="section sec-bg-light">
+        <div class="container">
+            <!-- heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 mb-50">
+                    %%include('partials/components/sectitle.html',{"title":"Choose the Plan"})
+                    <p class="text-center subtitle">Choose a plan that fits your needs and start optimizing your projects today</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12">
+                    <div class="table-responsive shadow">
+                        <table class="table table-bordered mb-0 text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col"><h5 class="mb-0">Free Plan</h5></th>
+                                    <th scope="col"><h5 class="mb-0">Professional Plan</h5></th>
+                                    <th scope="col"><h5 class="mb-0">Business Plan</h5></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                 <tr>
+                                    <td>Price</td>
+                                    <td><span class="fw-semibold fs-5">$0/</span><small>month</small></td>
+                                    <td><span class="fw-semibold fs-5">$29/</span><small>month</small></td>
+                                    <td><span class="fw-semibold fs-5">$99/</span><small>month</small></td>
+                                </tr>
+                                <tr>
+                                    <td>User access</td>
+                                    <td>1 user</td>
+                                    <td>5 users</td>
+                                    <td>Unlimited</td>
+                                </tr>
+                                <tr>
+                                    <td>Basic features</td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                    <td>All</td>
+                                    <td>All</td>
+                                </tr>
+                                <tr>
+                                    <td>Integrations</td>
+                                    <td>-</td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Storage</td>
+                                    <td>-</td>
+                                    <td>50GB</td>
+                                    <td>1TB</td>
+                                </tr>
+                                <tr>
+                                    <td>Analytics</td>
+                                    <td>Basic</td>
+                                    <td>Advanced</td>
+                                    <td>Advanced</td>
+                                </tr>
+                                <tr>
+                                    <td>24/7 chat support</td>
+                                    <td>-</td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Chatbot capabilities</td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Email support</td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>Accounting tools</td>
+                                    <td>-</td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Custom KPIs</td>
+                                    <td>5 custom</td>
+                                    <td>15 custom</td>
+                                    <td>Full</td>
+                                </tr>
+                                <tr>
+                                    <td>Onboarding</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Auto-scaling infrastructure</td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Unlimited websites/apps</td>
+                                    <td>-</td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Advanced security & access control</td>
+                                    <td>-</td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                </tr>
+                                <tr>
+                                    <td>API access & analytics</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Premium support</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td><span class="text-primary"><i class="ri-checkbox-circle-line"></i></span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section features-cta-sec">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12">
+                    <div class="text-center">
+                        <h1 class="cta-title fw-semibold text-dark-title mb-3">Start with a Plan That Fits Today</h1>
+                        <h1 class="cta-title fw-semibold text-dark-title mb-3">— Scale When You’re Ready</h1>
+                        <p class="mb-4 cta-text">Take the guesswork out of lending. Whether you're borrowing or investing, our platform gives you the tools, insights, and support to move forward with confidence. Fast approvals, transparent terms, and smart features—everything you need to make better financial decisions, all in one place.</p>
+                        <button class="btn btn-primary rounded-pill">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    %%include("partials/layout/footer.html")
+
+    
+    %%include("partials/layout/footer-js.html")
+</body>
+
+</html>
