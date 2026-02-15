@@ -3,7 +3,7 @@ const sass = require('gulp-sass')(require('sass'));
 const concat = require('gulp-concat');
 const babel = require("gulp-babel");
 const newer = require("gulp-newer");
-const del = require('del');
+const { deleteAsync } = require('del');
 const cleanCSS = require('gulp-clean-css');
 const replace = require('gulp-replace');
 const uglify = require('gulp-uglify');
@@ -54,7 +54,7 @@ const thirdParty = () => {
 // Cleaning the dist directory
 async function clean() {
     console.log('🧹 Cleaning build directory...');
-    await del(folder.dist);
+    await deleteAsync(folder.dist);
     console.log('✅ Build directory cleaned!');
 }
 
